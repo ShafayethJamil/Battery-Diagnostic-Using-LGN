@@ -1,0 +1,890 @@
+nohup: ignoring input
+Device: cuda:0
+Cells: ['W8', 'W9', 'W10'], SOC: 20%
+Windows: {'w36': 36, 'w360': 360}
+Model: 3-state diagonal LGN, c=1 (Stanford LGN_Battery)
+Training: 2500 epochs, 5+1 restarts, patience=200
+
+
+######################################################################
+# CELL: W8  SOC: 20%  WINDOWS: 36s, 360s (n=3)
+######################################################################
+
+  Diag 1, w36 (36s):
+      init 0: tau=[3.42 5.74 9.93]  loss=6.2628e-04 <-- BEST
+      init 1: tau=[3.44 5.75 9.93]  loss=6.2458e-04 <-- BEST
+      init 2: tau=[ 3.38  5.73 10.  ]  loss=6.3156e-04
+      init 3: tau=[3.39 5.74 9.98]  loss=6.3048e-04
+      init 4: tau=[3.43 5.75 9.92]  loss=6.2525e-04
+    BEST -> tau = [3.437 5.753 9.926]  NRMSE = 0.01203
+    -> tau = [3.44, 5.75, 9.93]  NRMSE = 0.01203
+
+  Diag 1, w360 (360s):
+      init 0: tau=[ 3.01 26.03 92.34]  loss=2.2048e-05 <-- BEST
+      init 1: tau=[ 3.06 26.28 92.84]  loss=2.1859e-05 <-- BEST
+      init 2: tau=[ 3.09 26.42 93.11]  loss=2.1812e-05 <-- BEST
+      init 3: tau=[ 3.11 26.5  93.28]  loss=2.1799e-05 <-- BEST
+      init 4: tau=[ 3.09 26.41 93.09]  loss=2.1814e-05
+    BEST -> tau = [ 3.111 26.504 93.282]  NRMSE = 0.00178
+    -> tau = [3.11, 26.5, 93.28]  NRMSE = 0.00178
+
+  Diag 2, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.64 5.81 9.42]  loss=5.3791e-04 <-- BEST
+      init 1: tau=[3.37 5.68 9.84]  loss=5.7152e-04
+      init 2: tau=[3.34 5.67 9.88]  loss=5.7459e-04
+      init 3: tau=[ 2.72  5.54 10.68]  loss=6.6352e-04
+      init 4: tau=[3.36 5.69 9.82]  loss=5.7075e-04
+      init 5: tau=[3.36 5.69 9.85]  loss=5.7219e-04
+    BEST -> tau = [3.636 5.811 9.421]  NRMSE = 0.01098
+    -> tau = [3.64, 5.81, 9.42]  NRMSE = 0.01098
+
+  Diag 2, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[ 2.92 25.   98.46]  loss=3.2438e-05 <-- BEST
+      init 1: tau=[ 2.86 24.76 97.95]  loss=3.2512e-05
+      init 2: tau=[ 2.89 24.89 98.22]  loss=3.2452e-05
+      init 3: tau=[ 2.89 24.92 98.28]  loss=3.2441e-05
+      init 4: tau=[ 2.91 24.97 98.41]  loss=3.2438e-05
+      init 5: tau=[ 2.9  24.94 98.34]  loss=3.2441e-05
+    BEST -> tau = [ 2.919 24.996 98.462]  NRMSE = 0.00213
+    -> tau = [2.92, 25.0, 98.46]  NRMSE = 0.00213
+
+  Diag 3, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.68 5.78 9.19]  loss=5.0149e-04 <-- BEST
+      init 1: tau=[3.33 5.62 9.73]  loss=5.4405e-04
+      init 2: tau=[3.32 5.63 9.74]  loss=5.4479e-04
+      init 3: tau=[3.28 5.62 9.76]  loss=5.4939e-04
+      init 4: tau=[3.32 5.64 9.72]  loss=5.4356e-04
+      init 5: tau=[3.31 5.63 9.74]  loss=5.4544e-04
+    BEST -> tau = [3.684 5.779 9.19 ]  NRMSE = 0.01046
+    -> tau = [3.68, 5.78, 9.19]  NRMSE = 0.01046
+
+  Diag 3, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.83  23.97 101.11]  loss=3.8713e-05 <-- BEST
+      init 1: tau=[  2.8   23.88 100.88]  loss=3.8725e-05
+      init 2: tau=[  2.82  23.93 101.01]  loss=3.8714e-05
+      init 3: tau=[  2.82  23.93 101.02]  loss=3.8714e-05
+      init 4: tau=[  2.82  23.95 101.05]  loss=3.8713e-05 <-- BEST
+      init 5: tau=[  2.82  23.95 101.04]  loss=3.8713e-05
+    BEST -> tau = [  2.823  23.949 101.051]  NRMSE = 0.00229
+    -> tau = [2.82, 23.95, 101.05]  NRMSE = 0.00229
+
+  Diag 4, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.74 5.78 9.06]  loss=4.7105e-04 <-- BEST
+      init 1: tau=[3.27 5.6  9.73]  loss=5.1983e-04
+      init 2: tau=[3.28 5.61 9.74]  loss=5.2025e-04
+      init 3: tau=[3.24 5.6  9.77]  loss=5.2325e-04
+      init 4: tau=[3.27 5.61 9.74]  loss=5.2069e-04
+      init 5: tau=[3.27 5.61 9.75]  loss=5.2120e-04
+    BEST -> tau = [3.737 5.784 9.063]  NRMSE = 0.01008
+    -> tau = [3.74, 5.78, 9.06]  NRMSE = 0.01008
+
+  Diag 4, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.76  23.24 103.44]  loss=4.6701e-05 <-- BEST
+      init 1: tau=[  2.75  23.2  103.36]  loss=4.6704e-05
+      init 2: tau=[  2.75  23.23 103.42]  loss=4.6701e-05
+      init 3: tau=[  2.75  23.22 103.41]  loss=4.6701e-05
+      init 4: tau=[  2.76  23.23 103.43]  loss=4.6701e-05
+      init 5: tau=[  2.76  23.23 103.43]  loss=4.6701e-05
+    BEST -> tau = [  2.757  23.238 103.443]  NRMSE = 0.00250
+    -> tau = [2.76, 23.24, 103.44]  NRMSE = 0.00250
+
+  Diag 5, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.71 5.74 9.08]  loss=4.5421e-04 <-- BEST
+      init 1: tau=[3.26 5.59 9.74]  loss=4.9994e-04
+      init 2: tau=[3.25 5.6  9.74]  loss=5.0094e-04
+      init 3: tau=[3.23 5.59 9.77]  loss=5.0337e-04
+      init 4: tau=[3.26 5.6  9.72]  loss=4.9924e-04
+      init 5: tau=[3.22 5.58 9.74]  loss=5.0206e-04
+    BEST -> tau = [3.714 5.744 9.077]  NRMSE = 0.00989
+    -> tau = [3.71, 5.74, 9.08]  NRMSE = 0.00989
+
+  Diag 5, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.78  22.28 106.2 ]  loss=5.8084e-05 <-- BEST
+      init 1: tau=[  2.76  22.24 106.12]  loss=5.8083e-05 <-- BEST
+      init 2: tau=[  2.77  22.25 106.14]  loss=5.8083e-05 <-- BEST
+      init 3: tau=[  2.76  22.24 106.12]  loss=5.8083e-05
+      init 4: tau=[  2.77  22.25 106.14]  loss=5.8083e-05 <-- BEST
+      init 5: tau=[  2.77  22.25 106.14]  loss=5.8083e-05 <-- BEST
+    BEST -> tau = [  2.767  22.251 106.142]  NRMSE = 0.00280
+    -> tau = [2.77, 22.25, 106.14]  NRMSE = 0.00280
+
+  Diag 6, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.83 5.81 8.88]  loss=4.4435e-04 <-- BEST
+      init 1: tau=[3.27 5.58 9.72]  loss=5.0186e-04
+      init 2: tau=[3.25 5.58 9.72]  loss=5.0247e-04
+      init 3: tau=[3.23 5.59 9.75]  loss=5.0473e-04
+      init 4: tau=[3.26 5.59 9.7 ]  loss=5.0090e-04
+      init 5: tau=[3.25 5.59 9.73]  loss=5.0290e-04
+    BEST -> tau = [3.827 5.815 8.878]  NRMSE = 0.00974
+    -> tau = [3.83, 5.81, 8.88]  NRMSE = 0.00974
+
+  Diag 6, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.7   22.38 106.82]  loss=5.9650e-05 <-- BEST
+      init 1: tau=[  2.69  22.36 106.78]  loss=5.9650e-05
+      init 2: tau=[  2.69  22.37 106.8 ]  loss=5.9650e-05
+      init 3: tau=[  2.69  22.37 106.79]  loss=5.9650e-05
+      init 4: tau=[  2.7   22.38 106.81]  loss=5.9650e-05
+      init 5: tau=[  2.69  22.37 106.81]  loss=5.9650e-05
+    BEST -> tau = [  2.696  22.378 106.816]  NRMSE = 0.00284
+    -> tau = [2.7, 22.38, 106.82]  NRMSE = 0.00284
+
+  Diag 7, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.83 5.79 8.89]  loss=4.4834e-04 <-- BEST
+      init 1: tau=[3.27 5.58 9.7 ]  loss=5.0413e-04
+      init 2: tau=[3.25 5.59 9.71]  loss=5.0542e-04
+      init 3: tau=[3.22 5.57 9.73]  loss=5.0835e-04
+      init 4: tau=[3.25 5.57 9.69]  loss=5.0422e-04
+      init 5: tau=[3.24 5.58 9.71]  loss=5.0619e-04
+    BEST -> tau = [3.831 5.79  8.892]  NRMSE = 0.00982
+    -> tau = [3.83, 5.79, 8.89]  NRMSE = 0.00982
+
+  Diag 7, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.62  21.5  106.33]  loss=7.1843e-05 <-- BEST
+      init 1: tau=[  2.61  21.48 106.28]  loss=7.1844e-05
+      init 2: tau=[  2.6   21.47 106.27]  loss=7.1844e-05
+      init 3: tau=[  2.6   21.45 106.21]  loss=7.1848e-05
+      init 4: tau=[  2.61  21.48 106.28]  loss=7.1843e-05 <-- BEST
+      init 5: tau=[  2.61  21.47 106.27]  loss=7.1844e-05
+    BEST -> tau = [  2.607  21.477 106.279]  NRMSE = 0.00314
+    -> tau = [2.61, 21.48, 106.28]  NRMSE = 0.00314
+
+  Diag 8, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.8  5.76 8.91]  loss=4.3669e-04 <-- BEST
+      init 1: tau=[3.22 5.56 9.73]  loss=4.8958e-04
+      init 2: tau=[3.2  5.58 9.73]  loss=4.9080e-04
+      init 3: tau=[3.19 5.58 9.75]  loss=4.9184e-04
+      init 4: tau=[3.22 5.57 9.71]  loss=4.8881e-04
+      init 5: tau=[3.18 5.56 9.73]  loss=4.9211e-04
+    BEST -> tau = [3.797 5.764 8.914]  NRMSE = 0.00961
+    -> tau = [3.8, 5.76, 8.91]  NRMSE = 0.00961
+
+  Diag 8, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.57  20.5  109.11]  loss=8.3366e-05 <-- BEST
+      init 1: tau=[  2.57  20.49 109.08]  loss=8.3366e-05
+      init 2: tau=[  2.57  20.5  109.1 ]  loss=8.3366e-05 <-- BEST
+      init 3: tau=[  2.57  20.49 109.09]  loss=8.3366e-05
+      init 4: tau=[  2.57  20.49 109.1 ]  loss=8.3366e-05
+      init 5: tau=[  2.57  20.5  109.1 ]  loss=8.3366e-05 <-- BEST
+    BEST -> tau = [  2.57   20.495 109.101]  NRMSE = 0.00341
+    -> tau = [2.57, 20.5, 109.1]  NRMSE = 0.00341
+
+  Diag 9, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.87 5.81 8.84]  loss=4.3178e-04 <-- BEST
+      init 1: tau=[3.23 5.56 9.71]  loss=4.9016e-04
+      init 2: tau=[3.23 5.59 9.73]  loss=4.9078e-04
+      init 3: tau=[3.21 5.58 9.76]  loss=4.9258e-04
+      init 4: tau=[3.25 5.59 9.71]  loss=4.8905e-04
+      init 5: tau=[3.22 5.59 9.74]  loss=4.9138e-04
+    BEST -> tau = [3.87  5.809 8.835]  NRMSE = 0.00959
+    -> tau = [3.87, 5.81, 8.84]  NRMSE = 0.00959
+
+  Diag 9, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.55  20.42 111.29]  loss=9.2037e-05 <-- BEST
+      init 1: tau=[  2.55  20.4  111.26]  loss=9.2038e-05
+      init 2: tau=[  2.55  20.42 111.29]  loss=9.2037e-05 <-- BEST
+      init 3: tau=[  2.53  20.36 111.18]  loss=9.2037e-05
+      init 4: tau=[  2.55  20.42 111.29]  loss=9.2037e-05
+      init 5: tau=[  2.55  20.42 111.29]  loss=9.2037e-05
+    BEST -> tau = [  2.553  20.42  111.29 ]  NRMSE = 0.00363
+    -> tau = [2.55, 20.42, 111.29]  NRMSE = 0.00363
+
+  Diag 10, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.93 5.85 8.78]  loss=4.4142e-04 <-- BEST
+      init 1: tau=[3.26 5.59 9.75]  loss=5.0411e-04
+      init 2: tau=[3.24 5.6  9.76]  loss=5.0531e-04
+      init 3: tau=[3.23 5.6  9.78]  loss=5.0705e-04
+      init 4: tau=[3.24 5.59 9.72]  loss=5.0394e-04
+      init 5: tau=[3.23 5.6  9.76]  loss=5.0587e-04
+    BEST -> tau = [3.926 5.846 8.781]  NRMSE = 0.00975
+    -> tau = [3.93, 5.85, 8.78]  NRMSE = 0.00975
+
+  Diag 10, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.47  20.42 111.09]  loss=9.3588e-05 <-- BEST
+      init 1: tau=[  2.46  20.41 111.06]  loss=9.3589e-05
+      init 2: tau=[  2.47  20.43 111.09]  loss=9.3588e-05 <-- BEST
+      init 3: tau=[  2.46  20.42 111.08]  loss=9.3588e-05
+      init 4: tau=[  2.47  20.43 111.09]  loss=9.3588e-05
+      init 5: tau=[  2.47  20.42 111.09]  loss=9.3588e-05
+    BEST -> tau = [  2.466  20.426 111.09 ]  NRMSE = 0.00368
+    -> tau = [2.47, 20.43, 111.09]  NRMSE = 0.00368
+
+  Diag 11, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.94 5.85 8.75]  loss=4.4080e-04 <-- BEST
+      init 1: tau=[3.23 5.57 9.73]  loss=5.0596e-04
+      init 2: tau=[3.23 5.6  9.75]  loss=5.0664e-04
+      init 3: tau=[3.22 5.59 9.77]  loss=5.0808e-04
+      init 4: tau=[3.24 5.59 9.73]  loss=5.0490e-04
+      init 5: tau=[3.21 5.58 9.75]  loss=5.0789e-04
+    BEST -> tau = [3.94  5.847 8.746]  NRMSE = 0.00972
+    -> tau = [3.94, 5.85, 8.75]  NRMSE = 0.00972
+
+  Diag 11, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.43  20.29 111.21]  loss=1.0019e-04 <-- BEST
+      init 1: tau=[  2.43  20.28 111.19]  loss=1.0019e-04
+      init 2: tau=[  2.44  20.29 111.21]  loss=1.0019e-04 <-- BEST
+      init 3: tau=[  2.44  20.29 111.21]  loss=1.0019e-04
+      init 4: tau=[  2.44  20.29 111.21]  loss=1.0019e-04
+      init 5: tau=[  2.44  20.29 111.21]  loss=1.0019e-04
+    BEST -> tau = [  2.437  20.29  111.213]  NRMSE = 0.00382
+    -> tau = [2.44, 20.29, 111.21]  NRMSE = 0.00382
+
+  Diag 12, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.91 5.81 8.74]  loss=4.2564e-04 <-- BEST
+      init 1: tau=[3.22 5.55 9.7 ]  loss=4.8809e-04
+      init 2: tau=[3.2  5.57 9.72]  loss=4.8941e-04
+      init 3: tau=[3.2  5.57 9.73]  loss=4.9009e-04
+      init 4: tau=[3.22 5.56 9.71]  loss=4.8830e-04
+      init 5: tau=[3.2  5.57 9.74]  loss=4.9046e-04
+    BEST -> tau = [3.913 5.811 8.739]  NRMSE = 0.00945
+    -> tau = [3.91, 5.81, 8.74]  NRMSE = 0.00945
+
+  Diag 12, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.51  19.72 113.17]  loss=1.0652e-04 <-- BEST
+      init 1: tau=[  2.51  19.71 113.16]  loss=1.0652e-04 <-- BEST
+      init 2: tau=[  2.51  19.71 113.16]  loss=1.0652e-04 <-- BEST
+      init 3: tau=[  2.51  19.71 113.15]  loss=1.0652e-04
+      init 4: tau=[  2.51  19.71 113.16]  loss=1.0652e-04
+      init 5: tau=[  2.51  19.71 113.16]  loss=1.0652e-04
+    BEST -> tau = [  2.513  19.713 113.162]  NRMSE = 0.00395
+    -> tau = [2.51, 19.71, 113.16]  NRMSE = 0.00395
+
+  Diag 14, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.9  5.79 8.82]  loss=4.1110e-04 <-- BEST
+      init 1: tau=[3.24 5.56 9.75]  loss=4.6903e-04
+      init 2: tau=[3.2  5.58 9.77]  loss=4.7135e-04
+      init 3: tau=[3.23 5.55 9.76]  loss=4.6973e-04
+      init 4: tau=[3.23 5.56 9.75]  loss=4.6961e-04
+      init 5: tau=[3.2  5.56 9.78]  loss=4.7230e-04
+    BEST -> tau = [3.896 5.786 8.819]  NRMSE = 0.00922
+    -> tau = [3.9, 5.79, 8.82]  NRMSE = 0.00922
+
+  Diag 14, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.72  18.78 113.74]  loss=1.1582e-04 <-- BEST
+      init 1: tau=[  2.71  18.77 113.73]  loss=1.1582e-04 <-- BEST
+      init 2: tau=[  2.71  18.77 113.73]  loss=1.1582e-04
+      init 3: tau=[  2.71  18.76 113.71]  loss=1.1582e-04
+      init 4: tau=[  2.71  18.77 113.73]  loss=1.1582e-04
+      init 5: tau=[  2.71  18.77 113.73]  loss=1.1582e-04
+    BEST -> tau = [  2.715  18.772 113.729]  NRMSE = 0.00410
+    -> tau = [2.71, 18.77, 113.73]  NRMSE = 0.00410
+
+######################################################################
+# CELL: W9  SOC: 20%  WINDOWS: 36s, 360s (n=3)
+######################################################################
+
+  Diag 1, w36 (36s):
+      init 0: tau=[3.41 5.71 9.86]  loss=6.1231e-04 <-- BEST
+      init 1: tau=[3.41 5.71 9.86]  loss=6.1323e-04
+      init 2: tau=[3.37 5.7  9.9 ]  loss=6.1669e-04
+      init 3: tau=[3.27 5.63 9.84]  loss=6.1704e-04
+      init 4: tau=[3.4  5.71 9.85]  loss=6.1267e-04
+    BEST -> tau = [3.408 5.712 9.857]  NRMSE = 0.01190
+    -> tau = [3.41, 5.71, 9.86]  NRMSE = 0.01190
+
+  Diag 1, w360 (360s):
+      init 0: tau=[ 2.96 25.75 91.66]  loss=2.2107e-05 <-- BEST
+      init 1: tau=[ 3.   25.96 92.07]  loss=2.1952e-05 <-- BEST
+      init 2: tau=[ 3.04 26.13 92.4 ]  loss=2.1890e-05 <-- BEST
+      init 3: tau=[ 3.06 26.19 92.52]  loss=2.1881e-05 <-- BEST
+      init 4: tau=[ 3.04 26.1  92.34]  loss=2.1897e-05
+    BEST -> tau = [ 3.057 26.193 92.518]  NRMSE = 0.00178
+    -> tau = [3.06, 26.19, 92.52]  NRMSE = 0.00178
+
+  Diag 2, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.64 5.8  9.42]  loss=5.4681e-04 <-- BEST
+      init 1: tau=[3.36 5.66 9.84]  loss=5.8262e-04
+      init 2: tau=[3.38 5.68 9.82]  loss=5.7965e-04
+      init 3: tau=[3.32 5.66 9.88]  loss=5.8632e-04
+      init 4: tau=[3.38 5.7  9.79]  loss=5.7888e-04
+      init 5: tau=[3.38 5.69 9.82]  loss=5.8053e-04
+    BEST -> tau = [3.637 5.803 9.421]  NRMSE = 0.01107
+    -> tau = [3.64, 5.8, 9.42]  NRMSE = 0.01107
+
+  Diag 2, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[ 2.89 24.77 97.39]  loss=3.1422e-05 <-- BEST
+      init 1: tau=[ 2.84 24.56 96.94]  loss=3.1484e-05
+      init 2: tau=[ 2.88 24.71 97.27]  loss=3.1426e-05
+      init 3: tau=[ 2.87 24.7  97.23]  loss=3.1427e-05
+      init 4: tau=[ 2.89 24.75 97.35]  loss=3.1422e-05
+      init 5: tau=[ 2.88 24.72 97.29]  loss=3.1425e-05
+    BEST -> tau = [ 2.892 24.77  97.39 ]  NRMSE = 0.00209
+    -> tau = [2.89, 24.77, 97.39]  NRMSE = 0.00209
+
+  Diag 3, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.67 5.79 9.27]  loss=4.9545e-04 <-- BEST
+      init 1: tau=[3.32 5.64 9.79]  loss=5.3571e-04
+      init 2: tau=[3.32 5.64 9.81]  loss=5.3695e-04
+      init 3: tau=[3.26 5.62 9.87]  loss=5.4284e-04
+      init 4: tau=[3.31 5.65 9.78]  loss=5.3526e-04
+      init 5: tau=[3.3  5.64 9.81]  loss=5.3762e-04
+    BEST -> tau = [3.672 5.788 9.265]  NRMSE = 0.01038
+    -> tau = [3.67, 5.79, 9.27]  NRMSE = 0.01038
+
+  Diag 3, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[ 2.87 24.08 99.39]  loss=3.7347e-05 <-- BEST
+      init 1: tau=[ 2.84 23.97 99.14]  loss=3.7367e-05
+      init 2: tau=[ 2.86 24.05 99.32]  loss=3.7348e-05
+      init 3: tau=[ 2.86 24.04 99.3 ]  loss=3.7349e-05
+      init 4: tau=[ 2.86 24.06 99.35]  loss=3.7347e-05
+      init 5: tau=[ 2.86 24.06 99.35]  loss=3.7347e-05
+    BEST -> tau = [ 2.868 24.081 99.395]  NRMSE = 0.00225
+    -> tau = [2.87, 24.08, 99.39]  NRMSE = 0.00225
+
+  Diag 4, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.7  5.77 9.05]  loss=4.6383e-04 <-- BEST
+      init 1: tau=[3.26 5.59 9.72]  loss=5.1217e-04
+      init 2: tau=[3.25 5.59 9.73]  loss=5.1308e-04
+      init 3: tau=[3.23 5.59 9.75]  loss=5.1539e-04
+      init 4: tau=[3.25 5.6  9.71]  loss=5.1177e-04
+      init 5: tau=[3.24 5.59 9.73]  loss=5.1359e-04
+    BEST -> tau = [3.703 5.768 9.051]  NRMSE = 0.00993
+    -> tau = [3.7, 5.77, 9.05]  NRMSE = 0.00993
+
+  Diag 4, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.73  23.35 101.9 ]  loss=4.5247e-05 <-- BEST
+      init 1: tau=[  2.72  23.3  101.79]  loss=4.5250e-05
+      init 2: tau=[  2.72  23.33 101.86]  loss=4.5247e-05
+      init 3: tau=[  2.72  23.33 101.85]  loss=4.5247e-05
+      init 4: tau=[  2.72  23.34 101.87]  loss=4.5247e-05
+      init 5: tau=[  2.72  23.34 101.86]  loss=4.5247e-05
+    BEST -> tau = [  2.728  23.351 101.9  ]  NRMSE = 0.00246
+    -> tau = [2.73, 23.35, 101.9]  NRMSE = 0.00246
+
+  Diag 5, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.7  5.73 9.05]  loss=4.4814e-04 <-- BEST
+      init 1: tau=[3.25 5.57 9.7 ]  loss=4.9330e-04
+      init 2: tau=[3.23 5.58 9.71]  loss=4.9469e-04
+      init 3: tau=[3.21 5.57 9.74]  loss=4.9688e-04
+      init 4: tau=[3.24 5.58 9.69]  loss=4.9326e-04
+      init 5: tau=[3.21 5.56 9.71]  loss=4.9572e-04
+    BEST -> tau = [3.703 5.731 9.054]  NRMSE = 0.00976
+    -> tau = [3.7, 5.73, 9.05]  NRMSE = 0.00976
+
+  Diag 5, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.74  21.73 104.5 ]  loss=5.5381e-05 <-- BEST
+      init 1: tau=[  2.74  21.72 104.49]  loss=5.5382e-05
+      init 2: tau=[  2.74  21.74 104.52]  loss=5.5381e-05 <-- BEST
+      init 3: tau=[  2.73  21.7  104.43]  loss=5.5386e-05
+      init 4: tau=[  2.74  21.74 104.52]  loss=5.5381e-05
+      init 5: tau=[  2.74  21.74 104.52]  loss=5.5381e-05
+    BEST -> tau = [  2.742  21.738 104.522]  NRMSE = 0.00272
+    -> tau = [2.74, 21.74, 104.52]  NRMSE = 0.00272
+
+  Diag 6, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.81 5.8  8.86]  loss=4.3759e-04 <-- BEST
+      init 1: tau=[3.25 5.57 9.69]  loss=4.9464e-04
+      init 2: tau=[3.22 5.57 9.69]  loss=4.9633e-04
+      init 3: tau=[3.21 5.57 9.72]  loss=4.9813e-04
+      init 4: tau=[3.23 5.57 9.67]  loss=4.9461e-04
+      init 5: tau=[3.21 5.56 9.7 ]  loss=4.9724e-04
+    BEST -> tau = [3.81  5.803 8.859]  NRMSE = 0.00963
+    -> tau = [3.81, 5.8, 8.86]  NRMSE = 0.00963
+
+  Diag 6, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.64  22.21 105.99]  loss=5.5682e-05 <-- BEST
+      init 1: tau=[  2.64  22.19 105.96]  loss=5.5682e-05
+      init 2: tau=[  2.64  22.2  105.98]  loss=5.5682e-05
+      init 3: tau=[  2.64  22.19 105.96]  loss=5.5682e-05
+      init 4: tau=[  2.64  22.2  105.98]  loss=5.5682e-05
+      init 5: tau=[  2.64  22.2  105.99]  loss=5.5682e-05
+    BEST -> tau = [  2.643  22.206 105.991]  NRMSE = 0.00273
+    -> tau = [2.64, 22.21, 105.99]  NRMSE = 0.00273
+
+  Diag 7, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.81 5.77 8.87]  loss=4.4229e-04 <-- BEST
+      init 1: tau=[3.24 5.56 9.67]  loss=4.9783e-04
+      init 2: tau=[3.23 5.57 9.68]  loss=4.9883e-04
+      init 3: tau=[3.19 5.55 9.7 ]  loss=5.0237e-04
+      init 4: tau=[3.24 5.57 9.67]  loss=4.9796e-04
+      init 5: tau=[3.23 5.57 9.69]  loss=4.9945e-04
+    BEST -> tau = [3.81  5.771 8.872]  NRMSE = 0.00972
+    -> tau = [3.81, 5.77, 8.87]  NRMSE = 0.00972
+
+  Diag 7, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.64  21.63 107.79]  loss=6.2013e-05 <-- BEST
+      init 1: tau=[  2.64  21.61 107.75]  loss=6.2014e-05
+      init 2: tau=[  2.64  21.6  107.74]  loss=6.2014e-05
+      init 3: tau=[  2.64  21.6  107.74]  loss=6.2014e-05
+      init 4: tau=[  2.63  21.6  107.73]  loss=6.2015e-05
+      init 5: tau=[  2.64  21.61 107.75]  loss=6.2014e-05
+    BEST -> tau = [  2.643  21.625 107.792]  NRMSE = 0.00291
+    -> tau = [2.64, 21.63, 107.79]  NRMSE = 0.00291
+
+  Diag 8, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.76 5.73 8.9 ]  loss=4.2946e-04 <-- BEST
+      init 1: tau=[3.2  5.54 9.68]  loss=4.8147e-04
+      init 2: tau=[3.19 5.55 9.69]  loss=4.8297e-04
+      init 3: tau=[3.16 5.54 9.69]  loss=4.8409e-04
+      init 4: tau=[3.2  5.55 9.67]  loss=4.8118e-04
+      init 5: tau=[3.17 5.55 9.7 ]  loss=4.8393e-04
+    BEST -> tau = [3.756 5.731 8.899]  NRMSE = 0.00945
+    -> tau = [3.76, 5.73, 8.9]  NRMSE = 0.00945
+
+  Diag 8, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.63  20.7  109.12]  loss=7.6359e-05 <-- BEST
+      init 1: tau=[  2.62  20.69 109.08]  loss=7.6360e-05
+      init 2: tau=[  2.62  20.7  109.11]  loss=7.6359e-05 <-- BEST
+      init 3: tau=[  2.62  20.69 109.1 ]  loss=7.6360e-05
+      init 4: tau=[  2.62  20.7  109.11]  loss=7.6359e-05
+      init 5: tau=[  2.62  20.7  109.11]  loss=7.6359e-05 <-- BEST
+    BEST -> tau = [  2.624  20.698 109.112]  NRMSE = 0.00322
+    -> tau = [2.62, 20.7, 109.11]  NRMSE = 0.00322
+
+  Diag 9, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.89 5.82 8.8 ]  loss=4.3943e-04 <-- BEST
+      init 1: tau=[3.23 5.56 9.71]  loss=4.9950e-04
+      init 2: tau=[3.22 5.59 9.73]  loss=5.0067e-04
+      init 3: tau=[3.21 5.58 9.75]  loss=5.0203e-04
+      init 4: tau=[3.24 5.59 9.72]  loss=4.9904e-04
+      init 5: tau=[3.2  5.58 9.74]  loss=5.0179e-04
+    BEST -> tau = [3.886 5.819 8.804]  NRMSE = 0.00966
+    -> tau = [3.89, 5.82, 8.8]  NRMSE = 0.00966
+
+  Diag 9, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.58  20.63 109.93]  loss=8.1549e-05 <-- BEST
+      init 1: tau=[  2.58  20.63 109.93]  loss=8.1549e-05
+      init 2: tau=[  2.58  20.63 109.94]  loss=8.1549e-05 <-- BEST
+      init 3: tau=[  2.57  20.6  109.86]  loss=8.1550e-05
+      init 4: tau=[  2.58  20.63 109.94]  loss=8.1549e-05
+      init 5: tau=[  2.58  20.63 109.94]  loss=8.1549e-05
+    BEST -> tau = [  2.578  20.63  109.936]  NRMSE = 0.00339
+    -> tau = [2.58, 20.63, 109.94]  NRMSE = 0.00339
+
+  Diag 10, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.93 5.84 8.71]  loss=4.3559e-04 <-- BEST
+      init 1: tau=[3.23 5.57 9.72]  loss=4.9997e-04
+      init 2: tau=[3.22 5.59 9.72]  loss=5.0119e-04
+      init 3: tau=[3.2  5.58 9.75]  loss=5.0305e-04
+      init 4: tau=[3.24 5.58 9.71]  loss=4.9937e-04
+      init 5: tau=[3.21 5.58 9.73]  loss=5.0170e-04
+    BEST -> tau = [3.932 5.841 8.713]  NRMSE = 0.00964
+    -> tau = [3.93, 5.84, 8.71]  NRMSE = 0.00964
+
+  Diag 10, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.51  20.77 111.49]  loss=8.5668e-05 <-- BEST
+      init 1: tau=[  2.51  20.77 111.48]  loss=8.5669e-05
+      init 2: tau=[  2.51  20.77 111.48]  loss=8.5668e-05
+      init 3: tau=[  2.5   20.74 111.42]  loss=8.5670e-05
+      init 4: tau=[  2.51  20.77 111.5 ]  loss=8.5668e-05 <-- BEST
+      init 5: tau=[  2.51  20.77 111.5 ]  loss=8.5668e-05
+    BEST -> tau = [  2.509  20.774 111.496]  NRMSE = 0.00350
+    -> tau = [2.51, 20.77, 111.5]  NRMSE = 0.00350
+
+  Diag 11, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.94 5.84 8.71]  loss=4.3455e-04 <-- BEST
+      init 1: tau=[3.22 5.56 9.72]  loss=4.9987e-04
+      init 2: tau=[3.21 5.58 9.74]  loss=5.0088e-04
+      init 3: tau=[3.2  5.58 9.75]  loss=5.0217e-04
+      init 4: tau=[3.23 5.58 9.72]  loss=4.9906e-04
+      init 5: tau=[3.21 5.58 9.74]  loss=5.0132e-04
+    BEST -> tau = [3.936 5.84  8.714]  NRMSE = 0.00961
+    -> tau = [3.94, 5.84, 8.71]  NRMSE = 0.00961
+
+  Diag 11, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.45  20.4  111.4 ]  loss=9.0657e-05 <-- BEST
+      init 1: tau=[  2.44  20.38 111.36]  loss=9.0657e-05
+      init 2: tau=[  2.45  20.39 111.38]  loss=9.0657e-05 <-- BEST
+      init 3: tau=[  2.44  20.39 111.38]  loss=9.0657e-05
+      init 4: tau=[  2.44  20.39 111.38]  loss=9.0657e-05
+      init 5: tau=[  2.44  20.39 111.38]  loss=9.0657e-05
+    BEST -> tau = [  2.445  20.393 111.384]  NRMSE = 0.00361
+    -> tau = [2.45, 20.39, 111.38]  NRMSE = 0.00361
+
+  Diag 12, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.89 5.8  8.74]  loss=4.1620e-04 <-- BEST
+      init 1: tau=[3.2  5.54 9.71]  loss=4.7771e-04
+      init 2: tau=[3.18 5.57 9.74]  loss=4.7951e-04
+      init 3: tau=[3.18 5.56 9.74]  loss=4.7920e-04
+      init 4: tau=[3.2  5.56 9.72]  loss=4.7740e-04
+      init 5: tau=[3.16 5.55 9.74]  loss=4.8107e-04
+    BEST -> tau = [3.893 5.802 8.744]  NRMSE = 0.00928
+    -> tau = [3.89, 5.8, 8.74]  NRMSE = 0.00928
+
+  Diag 12, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.52  19.75 112.52]  loss=1.0147e-04 <-- BEST
+      init 1: tau=[  2.52  19.74 112.51]  loss=1.0147e-04 <-- BEST
+      init 2: tau=[  2.52  19.74 112.51]  loss=1.0147e-04 <-- BEST
+      init 3: tau=[  2.52  19.74 112.51]  loss=1.0147e-04
+      init 4: tau=[  2.52  19.74 112.51]  loss=1.0147e-04
+      init 5: tau=[  2.52  19.74 112.51]  loss=1.0147e-04
+    BEST -> tau = [  2.522  19.744 112.512]  NRMSE = 0.00381
+    -> tau = [2.52, 19.74, 112.51]  NRMSE = 0.00381
+
+  Diag 14, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.85 5.75 8.81]  loss=3.9607e-04 <-- BEST
+      init 1: tau=[3.18 5.52 9.73]  loss=4.5217e-04
+      init 2: tau=[3.13 5.53 9.75]  loss=4.5508e-04
+      init 3: tau=[3.17 5.51 9.74]  loss=4.5255e-04
+      init 4: tau=[3.18 5.52 9.74]  loss=4.5245e-04
+      init 5: tau=[3.13 5.52 9.77]  loss=4.5582e-04
+    BEST -> tau = [3.851 5.752 8.81 ]  NRMSE = 0.00894
+    -> tau = [3.85, 5.75, 8.81]  NRMSE = 0.00894
+
+  Diag 14, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.73  18.66 113.42]  loss=1.1188e-04 <-- BEST
+      init 1: tau=[  2.72  18.66 113.41]  loss=1.1188e-04 <-- BEST
+      init 2: tau=[  2.73  18.66 113.41]  loss=1.1188e-04 <-- BEST
+      init 3: tau=[  2.72  18.65 113.39]  loss=1.1188e-04
+      init 4: tau=[  2.73  18.66 113.41]  loss=1.1188e-04
+      init 5: tau=[  2.73  18.66 113.41]  loss=1.1188e-04
+    BEST -> tau = [  2.725  18.657 113.41 ]  NRMSE = 0.00396
+    -> tau = [2.73, 18.66, 113.41]  NRMSE = 0.00396
+
+######################################################################
+# CELL: W10  SOC: 20%  WINDOWS: 36s, 360s (n=3)
+######################################################################
+
+  Diag 1, w36 (36s):
+      init 0: tau=[3.41 5.71 9.85]  loss=6.0694e-04 <-- BEST
+      init 1: tau=[3.4  5.71 9.85]  loss=6.0713e-04
+      init 2: tau=[3.36 5.7  9.9 ]  loss=6.1208e-04
+      init 3: tau=[3.41 5.72 9.84]  loss=6.0632e-04 <-- BEST
+      init 4: tau=[3.39 5.7  9.85]  loss=6.0809e-04
+    BEST -> tau = [3.409 5.722 9.843]  NRMSE = 0.01181
+    -> tau = [3.41, 5.72, 9.84]  NRMSE = 0.01181
+
+  Diag 1, w360 (360s):
+      init 0: tau=[ 2.92 25.6  92.03]  loss=2.2283e-05 <-- BEST
+      init 1: tau=[ 2.98 25.84 92.5 ]  loss=2.2110e-05 <-- BEST
+      init 2: tau=[ 3.02 26.   92.83]  loss=2.2065e-05 <-- BEST
+      init 3: tau=[ 3.03 26.04 92.89]  loss=2.2062e-05 <-- BEST
+      init 4: tau=[ 3.01 25.95 92.72]  loss=2.2074e-05
+    BEST -> tau = [ 3.028 26.035 92.886]  NRMSE = 0.00178
+    -> tau = [3.03, 26.04, 92.89]  NRMSE = 0.00178
+
+  Diag 2, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.62 5.8  9.38]  loss=5.3561e-04 <-- BEST
+      init 1: tau=[3.37 5.67 9.79]  loss=5.6887e-04
+      init 2: tau=[3.35 5.66 9.81]  loss=5.7113e-04
+      init 3: tau=[3.33 5.66 9.83]  loss=5.7328e-04
+      init 4: tau=[3.33 5.66 9.83]  loss=5.7342e-04
+      init 5: tau=[3.35 5.67 9.8 ]  loss=5.6990e-04
+    BEST -> tau = [3.619 5.797 9.376]  NRMSE = 0.01092
+    -> tau = [3.62, 5.8, 9.38]  NRMSE = 0.01092
+
+  Diag 2, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[ 2.93 24.77 97.06]  loss=3.0658e-05 <-- BEST
+      init 1: tau=[ 2.88 24.57 96.65]  loss=3.0705e-05
+      init 2: tau=[ 2.91 24.7  96.92]  loss=3.0662e-05
+      init 3: tau=[ 2.91 24.69 96.9 ]  loss=3.0662e-05
+      init 4: tau=[ 2.92 24.74 97.01]  loss=3.0658e-05
+      init 5: tau=[ 2.92 24.74 97.  ]  loss=3.0658e-05
+    BEST -> tau = [ 2.93  24.769 97.059]  NRMSE = 0.00207
+    -> tau = [2.93, 24.77, 97.06]  NRMSE = 0.00207
+
+  Diag 3, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.6  5.75 9.32]  loss=4.9497e-04 <-- BEST
+      init 1: tau=[3.29 5.62 9.79]  loss=5.3057e-04
+      init 2: tau=[3.27 5.63 9.8 ]  loss=5.3196e-04
+      init 3: tau=[3.25 5.62 9.82]  loss=5.3416e-04
+      init 4: tau=[3.29 5.63 9.78]  loss=5.3064e-04
+      init 5: tau=[3.25 5.62 9.8 ]  loss=5.3367e-04
+    BEST -> tau = [3.6   5.751 9.316]  NRMSE = 0.01024
+    -> tau = [3.6, 5.75, 9.32]  NRMSE = 0.01024
+
+  Diag 3, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[ 2.82 23.2  96.36]  loss=3.3896e-05 <-- BEST
+      init 1: tau=[ 2.8  23.09 96.18]  loss=3.3904e-05
+      init 2: tau=[ 2.82 23.16 96.29]  loss=3.3895e-05 <-- BEST
+      init 3: tau=[ 2.8  23.07 96.15]  loss=3.3896e-05
+      init 4: tau=[ 2.82 23.17 96.31]  loss=3.3895e-05 <-- BEST
+      init 5: tau=[ 2.82 23.16 96.3 ]  loss=3.3895e-05
+    BEST -> tau = [ 2.817 23.167 96.309]  NRMSE = 0.00216
+    -> tau = [2.82, 23.17, 96.31]  NRMSE = 0.00216
+
+  Diag 4, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.58 5.71 9.13]  loss=4.5719e-04 <-- BEST
+      init 1: tau=[3.19 5.55 9.72]  loss=4.9807e-04
+      init 2: tau=[3.17 5.56 9.73]  loss=4.9951e-04
+      init 3: tau=[3.18 5.56 9.74]  loss=5.0012e-04
+      init 4: tau=[3.2  5.57 9.71]  loss=4.9726e-04
+      init 5: tau=[3.15 5.55 9.73]  loss=5.0088e-04
+    BEST -> tau = [3.577 5.706 9.131]  NRMSE = 0.01185
+    -> tau = [3.58, 5.71, 9.13]  NRMSE = 0.01185
+
+  Diag 4, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[ 2.66 21.49 97.87]  loss=4.2679e-05 <-- BEST
+      init 1: tau=[ 2.65 21.44 97.79]  loss=4.2679e-05
+      init 2: tau=[ 2.65 21.46 97.82]  loss=4.2678e-05 <-- BEST
+      init 3: tau=[ 2.65 21.48 97.85]  loss=4.2678e-05 <-- BEST
+      init 4: tau=[ 2.65 21.44 97.79]  loss=4.2679e-05
+      init 5: tau=[ 2.65 21.44 97.79]  loss=4.2679e-05
+    BEST -> tau = [ 2.654 21.477 97.854]  NRMSE = 0.00239
+    -> tau = [2.65, 21.48, 97.85]  NRMSE = 0.00239
+
+  Diag 5, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.56 5.65 9.12]  loss=4.2545e-04 <-- BEST
+      init 1: tau=[3.15 5.5  9.68]  loss=4.6349e-04
+      init 2: tau=[3.13 5.53 9.7 ]  loss=4.6541e-04
+      init 3: tau=[3.14 5.51 9.68]  loss=4.6411e-04
+      init 4: tau=[3.16 5.51 9.68]  loss=4.6367e-04
+      init 5: tau=[3.12 5.52 9.72]  loss=4.6655e-04
+    BEST -> tau = [3.556 5.647 9.123]  NRMSE = 0.00931
+    -> tau = [3.56, 5.65, 9.12]  NRMSE = 0.00931
+
+  Diag 5, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.65  20.13 101.34]  loss=4.9865e-05 <-- BEST
+      init 1: tau=[  2.65  20.11 101.31]  loss=4.9865e-05
+      init 2: tau=[  2.65  20.12 101.32]  loss=4.9865e-05 <-- BEST
+      init 3: tau=[  2.65  20.13 101.33]  loss=4.9865e-05 <-- BEST
+      init 4: tau=[  2.65  20.12 101.32]  loss=4.9865e-05
+      init 5: tau=[  2.65  20.12 101.32]  loss=4.9865e-05
+    BEST -> tau = [  2.65   20.125 101.329]  NRMSE = 0.00254
+    -> tau = [2.65, 20.13, 101.33]  NRMSE = 0.00254
+
+  Diag 6, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.78 5.8  8.79]  loss=4.2836e-04 <-- BEST
+      init 1: tau=[3.2  5.54 9.68]  loss=4.8563e-04
+      init 2: tau=[3.18 5.55 9.69]  loss=4.8688e-04
+      init 3: tau=[3.17 5.55 9.71]  loss=4.8817e-04
+      init 4: tau=[3.2  5.55 9.67]  loss=4.8537e-04
+      init 5: tau=[3.16 5.54 9.69]  loss=4.8824e-04
+    BEST -> tau = [3.78  5.8   8.791]  NRMSE = 0.00943
+    -> tau = [3.78, 5.8, 8.79]  NRMSE = 0.00943
+
+  Diag 6, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.57  20.96 103.01]  loss=5.5776e-05 <-- BEST
+      init 1: tau=[  2.56  20.93 102.95]  loss=5.5778e-05
+      init 2: tau=[  2.57  20.96 103.  ]  loss=5.5776e-05
+      init 3: tau=[  2.57  20.97 103.01]  loss=5.5776e-05 <-- BEST
+      init 4: tau=[  2.56  20.95 102.97]  loss=5.5777e-05
+      init 5: tau=[  2.56  20.95 102.98]  loss=5.5776e-05
+    BEST -> tau = [  2.567  20.965 103.012]  NRMSE = 0.00273
+    -> tau = [2.57, 20.97, 103.01]  NRMSE = 0.00273
+
+  Diag 7, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.8  5.77 8.84]  loss=4.2809e-04 <-- BEST
+      init 1: tau=[3.22 5.54 9.67]  loss=4.8331e-04
+      init 2: tau=[3.2  5.56 9.68]  loss=4.8514e-04
+      init 3: tau=[3.19 5.55 9.69]  loss=4.8575e-04
+      init 4: tau=[3.22 5.55 9.67]  loss=4.8333e-04
+      init 5: tau=[3.18 5.55 9.69]  loss=4.8617e-04
+    BEST -> tau = [3.795 5.768 8.838]  NRMSE = 0.00946
+    -> tau = [3.8, 5.77, 8.84]  NRMSE = 0.00946
+
+  Diag 7, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.66  20.68 105.84]  loss=6.1660e-05 <-- BEST
+      init 1: tau=[  2.66  20.67 105.82]  loss=6.1660e-05
+      init 2: tau=[  2.65  20.66 105.8 ]  loss=6.1660e-05
+      init 3: tau=[  2.66  20.69 105.86]  loss=6.1660e-05
+      init 4: tau=[  2.66  20.68 105.84]  loss=6.1660e-05 <-- BEST
+      init 5: tau=[  2.66  20.68 105.84]  loss=6.1660e-05 <-- BEST
+    BEST -> tau = [  2.658  20.678 105.839]  NRMSE = 0.00289
+    -> tau = [2.66, 20.68, 105.84]  NRMSE = 0.00289
+
+  Diag 8, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.72 5.71 8.9 ]  loss=4.0378e-04 <-- BEST
+      init 1: tau=[3.15 5.51 9.69]  loss=4.5413e-04
+      init 2: tau=[3.1  5.51 9.72]  loss=4.5748e-04
+      init 3: tau=[3.15 5.51 9.7 ]  loss=4.5440e-04
+      init 4: tau=[3.14 5.5  9.71]  loss=4.5509e-04
+      init 5: tau=[3.09 5.49 9.74]  loss=4.5862e-04
+    BEST -> tau = [3.716 5.711 8.896]  NRMSE = 0.00896
+    -> tau = [3.72, 5.71, 8.9]  NRMSE = 0.00896
+
+  Diag 8, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.78  19.87 105.89]  loss=6.6010e-05 <-- BEST
+      init 1: tau=[  2.78  19.86 105.87]  loss=6.6010e-05 <-- BEST
+      init 2: tau=[  2.78  19.87 105.87]  loss=6.6010e-05 <-- BEST
+      init 3: tau=[  2.78  19.88 105.89]  loss=6.6010e-05
+      init 4: tau=[  2.78  19.87 105.87]  loss=6.6010e-05 <-- BEST
+      init 5: tau=[  2.78  19.87 105.87]  loss=6.6010e-05 <-- BEST
+    BEST -> tau = [  2.781  19.866 105.872]  NRMSE = 0.00292
+    -> tau = [2.78, 19.87, 105.87]  NRMSE = 0.00292
+
+  Diag 9, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.8  5.76 8.76]  loss=4.0447e-04 <-- BEST
+      init 1: tau=[3.17 5.51 9.68]  loss=4.6189e-04
+      init 2: tau=[3.14 5.53 9.7 ]  loss=4.6412e-04
+      init 3: tau=[3.16 5.52 9.68]  loss=4.6253e-04
+      init 4: tau=[3.17 5.51 9.69]  loss=4.6223e-04
+      init 5: tau=[3.12 5.51 9.71]  loss=4.6577e-04
+    BEST -> tau = [3.801 5.76  8.763]  NRMSE = 0.00904
+    -> tau = [3.8, 5.76, 8.76]  NRMSE = 0.00904
+
+  Diag 9, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.73  20.07 106.54]  loss=6.8576e-05 <-- BEST
+      init 1: tau=[  2.73  20.07 106.54]  loss=6.8576e-05 <-- BEST
+      init 2: tau=[  2.73  20.07 106.55]  loss=6.8576e-05 <-- BEST
+      init 3: tau=[  2.73  20.08 106.56]  loss=6.8576e-05
+      init 4: tau=[  2.73  20.07 106.55]  loss=6.8576e-05 <-- BEST
+      init 5: tau=[  2.73  20.07 106.55]  loss=6.8576e-05
+    BEST -> tau = [  2.733  20.07  106.548]  NRMSE = 0.00304
+    -> tau = [2.73, 20.07, 106.55]  NRMSE = 0.00304
+
+  Diag 10, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.89 5.81 8.64]  loss=4.1136e-04 <-- BEST
+      init 1: tau=[3.17 5.52 9.67]  loss=4.7585e-04
+      init 2: tau=[3.15 5.54 9.71]  loss=4.7737e-04
+      init 3: tau=[3.16 5.54 9.7 ]  loss=4.7675e-04
+      init 4: tau=[3.17 5.53 9.68]  loss=4.7558e-04
+      init 5: tau=[3.15 5.54 9.71]  loss=4.7804e-04
+    BEST -> tau = [3.887 5.81  8.643]  NRMSE = 0.00921
+    -> tau = [3.89, 5.81, 8.64]  NRMSE = 0.00921
+
+  Diag 10, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.55  20.24 108.37]  loss=7.9039e-05 <-- BEST
+      init 1: tau=[  2.54  20.22 108.35]  loss=7.9039e-05
+      init 2: tau=[  2.55  20.24 108.38]  loss=7.9039e-05 <-- BEST
+      init 3: tau=[  2.55  20.25 108.39]  loss=7.9039e-05
+      init 4: tau=[  2.55  20.24 108.38]  loss=7.9039e-05
+      init 5: tau=[  2.55  20.24 108.38]  loss=7.9039e-05
+    BEST -> tau = [  2.546  20.24  108.378]  NRMSE = 0.00330
+    -> tau = [2.55, 20.24, 108.38]  NRMSE = 0.00330
+
+  Diag 11, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.87 5.8  8.68]  loss=4.1161e-04 <-- BEST
+      init 1: tau=[3.14 5.52 9.73]  loss=4.7391e-04
+      init 2: tau=[3.11 5.54 9.75]  loss=4.7630e-04
+      init 3: tau=[3.14 5.54 9.74]  loss=4.7460e-04
+      init 4: tau=[3.15 5.53 9.73]  loss=4.7419e-04
+      init 5: tau=[3.1  5.53 9.77]  loss=4.7754e-04
+    BEST -> tau = [3.866 5.801 8.68 ]  NRMSE = 0.00910
+    -> tau = [3.87, 5.8, 8.68]  NRMSE = 0.00910
+
+  Diag 11, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.55  19.88 107.96]  loss=7.9593e-05 <-- BEST
+      init 1: tau=[  2.55  19.86 107.92]  loss=7.9593e-05
+      init 2: tau=[  2.55  19.87 107.94]  loss=7.9593e-05 <-- BEST
+      init 3: tau=[  2.55  19.88 107.96]  loss=7.9593e-05
+      init 4: tau=[  2.55  19.87 107.94]  loss=7.9593e-05
+      init 5: tau=[  2.55  19.87 107.94]  loss=7.9593e-05
+    BEST -> tau = [  2.552  19.87  107.945]  NRMSE = 0.00329
+    -> tau = [2.55, 19.87, 107.94]  NRMSE = 0.00329
+
+  Diag 12, w36 (36s):
+      [warm-start from prev diag]
+      init 0: tau=[3.81 5.72 8.72]  loss=3.6687e-04 <-- BEST
+      init 1: tau=[3.1  5.47 9.71]  loss=4.2163e-04
+      init 2: tau=[3.05 5.49 9.75]  loss=4.2537e-04
+      init 3: tau=[3.08 5.46 9.71]  loss=4.2328e-04
+      init 4: tau=[3.08 5.47 9.73]  loss=4.2336e-04
+      init 5: tau=[3.04 5.46 9.78]  loss=4.2706e-04
+    BEST -> tau = [3.805 5.721 8.715]  NRMSE = 0.00921
+    -> tau = [3.81, 5.72, 8.72]  NRMSE = 0.00921
+
+  Diag 12, w360 (360s):
+      [warm-start from prev diag]
+      init 0: tau=[  2.86  18.9  109.3 ]  loss=8.7471e-05 <-- BEST
+      init 1: tau=[  2.86  18.9  109.28]  loss=8.7471e-05 <-- BEST
+      init 2: tau=[  2.86  18.9  109.28]  loss=8.7471e-05 <-- BEST
+      init 3: tau=[  2.86  18.9  109.3 ]  loss=8.7471e-05
+      init 4: tau=[  2.86  18.9  109.28]  loss=8.7471e-05
+      init 5: tau=[  2.86  18.9  109.28]  loss=8.7471e-05 <-- BEST
+    BEST -> tau = [  2.859  18.897 109.285]  NRMSE = 0.00336
+    -> tau = [2.86, 18.9, 109.28]  NRMSE = 0.00336
+
+==============================================================================================================
+WINDOW SWEEP SUMMARY -- n=3 diagonal LGN (c=1) at 36s and 360s
+==============================================================================================================
+Cell  Diag  SOC |   t1_36   t2_36   t3_36    nrmse |   t1_360   t2_360    t3_360    nrmse
+--------------------------------------------------------------------------------------------------------------
+W10      1   20 |    3.41    5.72    9.84  0.01181 |     3.03    26.04     92.89  0.00178
+W10      2   20 |    3.62    5.80    9.38  0.01092 |     2.93    24.77     97.06  0.00207
+W10      3   20 |    3.60    5.75    9.32  0.01024 |     2.82    23.17     96.31  0.00216
+W10      4   20 |    3.58    5.71    9.13  0.01185 |     2.65    21.48     97.85  0.00239
+W10      5   20 |    3.56    5.65    9.12  0.00931 |     2.65    20.13    101.33  0.00254
+W10      6   20 |    3.78    5.80    8.79  0.00943 |     2.57    20.97    103.01  0.00273
+W10      7   20 |    3.80    5.77    8.84  0.00946 |     2.66    20.68    105.84  0.00289
+W10      8   20 |    3.72    5.71    8.90  0.00896 |     2.78    19.87    105.87  0.00292
+W10      9   20 |    3.80    5.76    8.76  0.00904 |     2.73    20.07    106.55  0.00304
+W10     10   20 |    3.89    5.81    8.64  0.00921 |     2.55    20.24    108.38  0.00330
+W10     11   20 |    3.87    5.80    8.68  0.00910 |     2.55    19.87    107.94  0.00329
+W10     12   20 |    3.81    5.72    8.72  0.00921 |     2.86    18.90    109.28  0.00336
+W8       1   20 |    3.44    5.75    9.93  0.01203 |     3.11    26.50     93.28  0.00178
+W8       2   20 |    3.64    5.81    9.42  0.01098 |     2.92    25.00     98.46  0.00213
+W8       3   20 |    3.68    5.78    9.19  0.01046 |     2.82    23.95    101.05  0.00229
+W8       4   20 |    3.74    5.78    9.06  0.01008 |     2.76    23.24    103.44  0.00250
+W8       5   20 |    3.71    5.74    9.08  0.00989 |     2.77    22.25    106.14  0.00280
+W8       6   20 |    3.83    5.81    8.88  0.00974 |     2.70    22.38    106.82  0.00284
+W8       7   20 |    3.83    5.79    8.89  0.00982 |     2.61    21.48    106.28  0.00314
+W8       8   20 |    3.80    5.76    8.91  0.00961 |     2.57    20.50    109.10  0.00341
+W8       9   20 |    3.87    5.81    8.84  0.00959 |     2.55    20.42    111.29  0.00363
+W8      10   20 |    3.93    5.85    8.78  0.00975 |     2.47    20.43    111.09  0.00368
+W8      11   20 |    3.94    5.85    8.75  0.00972 |     2.44    20.29    111.21  0.00382
+W8      12   20 |    3.91    5.81    8.74  0.00945 |     2.51    19.71    113.16  0.00395
+W8      14   20 |    3.90    5.79    8.82  0.00922 |     2.71    18.77    113.73  0.00410
+W9       1   20 |    3.41    5.71    9.86  0.01190 |     3.06    26.19     92.52  0.00178
+W9       2   20 |    3.64    5.80    9.42  0.01107 |     2.89    24.77     97.39  0.00209
+W9       3   20 |    3.67    5.79    9.27  0.01038 |     2.87    24.08     99.39  0.00225
+W9       4   20 |    3.70    5.77    9.05  0.00993 |     2.73    23.35    101.90  0.00246
+W9       5   20 |    3.70    5.73    9.05  0.00976 |     2.74    21.74    104.52  0.00272
+W9       6   20 |    3.81    5.80    8.86  0.00963 |     2.64    22.21    105.99  0.00273
+W9       7   20 |    3.81    5.77    8.87  0.00972 |     2.64    21.63    107.79  0.00291
+W9       8   20 |    3.76    5.73    8.90  0.00945 |     2.62    20.70    109.11  0.00322
+W9       9   20 |    3.89    5.82    8.80  0.00966 |     2.58    20.63    109.94  0.00339
+W9      10   20 |    3.93    5.84    8.71  0.00964 |     2.51    20.77    111.50  0.00350
+W9      11   20 |    3.94    5.84    8.71  0.00961 |     2.45    20.39    111.38  0.00361
+W9      12   20 |    3.89    5.80    8.74  0.00928 |     2.52    19.74    112.51  0.00381
+W9      14   20 |    3.85    5.75    8.81  0.00894 |     2.73    18.66    113.41  0.00396
+
+ Saved 38 results -> results_window_sweep/window_sweep_SOC20.json
+  Elapsed: 78.6 min

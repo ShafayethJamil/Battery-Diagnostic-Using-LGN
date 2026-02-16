@@ -1,0 +1,2927 @@
+[
+  {
+    "cell": "W8",
+    "diag": 1,
+    "n_states": 2,
+    "taus": [
+      15.805955820769533,
+      246.79189900428622
+    ],
+    "nrmse": 0.020061889803972343,
+    "loss": 0.0018248805762644243,
+    "z_re_corr": 0.6310930723019066,
+    "z_nrmse": 0.048560533838746915,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 15.805955820769533,
+        "amplitude": -0.029571273459619928,
+        "rel_amplitude": 0.2294000594197338,
+        "energy": 0.013821679509878039,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=15.8s < 1200s",
+        "energy_frac": 0.006199872599566993,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 246.79189900428622,
+        "amplitude": -0.0947486652718352,
+        "rel_amplitude": 0.7350156723206205,
+        "energy": 2.2155272769256715,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=246.8s < 1200s",
+        "energy_frac": 0.9938001274004326,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 1,
+    "n_states": 3,
+    "taus": [
+      6.778953875867586,
+      151.1136189556115,
+      778.790992755738
+    ],
+    "nrmse": 0.002568491531129965,
+    "loss": 0.00010002108014015436,
+    "z_re_corr": 0.6305617438560378,
+    "z_nrmse": 0.04854063946698029,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 6.778953875867586,
+        "amplitude": -0.023614564047273686,
+        "rel_amplitude": 0.18319070374202676,
+        "energy": 0.0037802675976196165,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=6.8s < 1200s",
+        "energy_frac": 0.0026475131448257428,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 151.1136189556115,
+        "amplitude": -0.08214368681502443,
+        "rel_amplitude": 0.6372321659415205,
+        "energy": 1.019652031411106,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=151.1s < 1200s",
+        "energy_frac": 0.7141140373260981,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 778.790992755738,
+        "amplitude": -0.02278808619853169,
+        "rel_amplitude": 0.17677927652130185,
+        "energy": 0.4044237269406482,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=778.8s < 1200s",
+        "energy_frac": 0.28323844952907545,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 1,
+    "n_states": 4,
+    "taus": [
+      0.3317685812138939,
+      6.8806217045816425,
+      151.26458494020162,
+      779.7164163416008
+    ],
+    "nrmse": 0.0025761314253607346,
+    "loss": 9.968431740638347e-05,
+    "z_re_corr": 0.6492366429063147,
+    "z_nrmse": 0.04799727698547132,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.3317685812138939,
+        "amplitude": -0.0006461243883711619,
+        "rel_amplitude": 0.0050123297289608425,
+        "energy": 1.3850566082535424e-07,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.33s < 3\u0394t=3.0s",
+        "energy_frac": 9.698813275881252e-08,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 6.8806217045816425,
+        "amplitude": -0.023348100650265977,
+        "rel_amplitude": 0.18112360577987027,
+        "energy": 0.0037508594835311986,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=6.9s < 1200s",
+        "energy_frac": 0.0026265269981065008,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 151.26458494020162,
+        "amplitude": -0.08215167757960787,
+        "rel_amplitude": 0.6372941545424765,
+        "energy": 1.0208692743086472,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=151.3s < 1200s",
+        "energy_frac": 0.7148603466170743,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 779.7164163416008,
+        "amplitude": -0.022747064797096907,
+        "rel_amplitude": 0.1764610517434792,
+        "energy": 0.4034478519724391,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=779.7s < 1200s",
+        "energy_frac": 0.28251302939668554,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 1,
+    "n_states": 5,
+    "taus": [
+      1.7026374861815348,
+      2.886916064989792,
+      5.145564116646722,
+      150.32710994193025,
+      772.9207007915704
+    ],
+    "nrmse": 0.002509458518183129,
+    "loss": 9.412009341860141e-05,
+    "z_re_corr": 0.6296860174148,
+    "z_nrmse": 0.04835411659526201,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 1.7026374861815348,
+        "amplitude": -0.018515490494566172,
+        "rel_amplitude": 0.1436344845087232,
+        "energy": 0.0005837039519816572,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=1.70s < 3\u0394t=3.0s",
+        "energy_frac": 0.00040542484249593216,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.886916064989792,
+        "amplitude": 0.041723546312238284,
+        "rel_amplitude": 0.32367168821117437,
+        "energy": 0.005025700294177369,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.89s < 3\u0394t=3.0s",
+        "energy_frac": 0.0034907143309227573,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 5.145564116646722,
+        "amplitude": -0.047140897038066475,
+        "rel_amplitude": 0.36569695236151634,
+        "energy": 0.011434802789146908,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=5.1s < 1200s",
+        "energy_frac": 0.007942302093420835,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 150.32710994193025,
+        "amplitude": -0.08208080732728665,
+        "rel_amplitude": 0.6367443763898454,
+        "energy": 1.0127926641027247,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=150.3s < 1200s",
+        "energy_frac": 0.7034581570518235,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 772.9207007915704,
+        "amplitude": -0.02302873048835142,
+        "rel_amplitude": 0.17864608196879286,
+        "energy": 0.40989718262191727,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=772.9s < 1200s",
+        "energy_frac": 0.28470340168133623,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 1,
+    "n_states": 6,
+    "taus": [
+      0.3533425815777633,
+      0.9379298253931126,
+      15.431255593378728,
+      28.120361879273148,
+      112.40377943378842,
+      630.2691131664513
+    ],
+    "nrmse": 0.0019677885166462755,
+    "loss": 1.121185794571215e-05,
+    "z_re_corr": 0.6524922390146473,
+    "z_nrmse": 0.04781186266997104,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.3533425815777633,
+        "amplitude": 0.002391850248399938,
+        "rel_amplitude": 0.01855485154723881,
+        "energy": 2.0214543978609075e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.35s < 3\u0394t=3.0s",
+        "energy_frac": 1.151559687508394e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 0.9379298253931126,
+        "amplitude": -0.006229217767744456,
+        "rel_amplitude": 0.04832334758969173,
+        "energy": 3.6394635454030464e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.94s < 3\u0394t=3.0s",
+        "energy_frac": 2.0732891661951323e-05,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 15.431255593378728,
+        "amplitude": -0.06212024546779036,
+        "rel_amplitude": 0.4818997065154702,
+        "energy": 0.059548056400928355,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=15.4s < 1200s",
+        "energy_frac": 0.03392267532393955,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 28.120361879273148,
+        "amplitude": 0.06095844486520488,
+        "rel_amplitude": 0.4728870027632654,
+        "energy": 0.10449335256957573,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=28.1s < 1200s",
+        "energy_frac": 0.05952661240295997,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 112.40377943378842,
+        "amplitude": -0.09207926746816403,
+        "rel_amplitude": 0.7143077371140674,
+        "energy": 0.9530257285912265,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=112.4s < 1200s",
+        "energy_frac": 0.5429091110664208,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 630.2691131664513,
+        "amplitude": -0.031823610284593414,
+        "rel_amplitude": 0.24687263131244297,
+        "energy": 0.6383001103263617,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=630.3s < 1200s",
+        "energy_frac": 0.3636197167553296,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 4,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 5,
+    "n_states": 2,
+    "taus": [
+      13.963461553066578,
+      302.8740103630948
+    ],
+    "nrmse": 0.016335787945771264,
+    "loss": 0.0008994314109148594,
+    "z_re_corr": 0.6014154360972841,
+    "z_nrmse": 0.05328542844251164,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 13.963461553066578,
+        "amplitude": -0.038562088991867007,
+        "rel_amplitude": 0.28422398372483304,
+        "energy": 0.020764151965088285,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=14.0s < 1200s",
+        "energy_frac": 0.0076429292803206995,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 302.8740103630948,
+        "amplitude": -0.09434744832973821,
+        "rel_amplitude": 0.6953930225151098,
+        "energy": 2.696015135598463,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=302.9s < 1200s",
+        "energy_frac": 0.9923570707196789,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 5,
+    "n_states": 3,
+    "taus": [
+      10.651265690487802,
+      220.52411181248067,
+      995.5388846657681
+    ],
+    "nrmse": 0.0038190025411964897,
+    "loss": 0.00014742537317137834,
+    "z_re_corr": 0.6020014269985282,
+    "z_nrmse": 0.05327440373178312,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 10.651265690487802,
+        "amplitude": -0.03499370759209777,
+        "rel_amplitude": 0.2579230336620418,
+        "energy": 0.013043109344990034,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=10.7s < 1200s",
+        "energy_frac": 0.007242590782451099,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 220.52411181248067,
+        "amplitude": -0.08271543403237129,
+        "rel_amplitude": 0.6096586256301506,
+        "energy": 1.5087913567256597,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=220.5s < 1200s",
+        "energy_frac": 0.8378031713013673,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 995.5388846657681,
+        "amplitude": -0.016742341999974444,
+        "rel_amplitude": 0.12340034641587855,
+        "energy": 0.2790555381794409,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=995.5s < 1200s",
+        "energy_frac": 0.154954237916181,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 5,
+    "n_states": 4,
+    "taus": [
+      0.6874714701169092,
+      11.002225074152744,
+      222.06234337893463,
+      1014.1376578979493
+    ],
+    "nrmse": 0.003916559373188901,
+    "loss": 0.0001437743211203107,
+    "z_re_corr": 0.6203530076896844,
+    "z_nrmse": 0.05258776197402945,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.6874714701169092,
+        "amplitude": -0.0021320582741809193,
+        "rel_amplitude": 0.015714451993225752,
+        "energy": 3.1250201455914804e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.69s < 3\u0394t=3.0s",
+        "energy_frac": 1.7247478671125072e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 11.002225074152744,
+        "amplitude": -0.03429305760218107,
+        "rel_amplitude": 0.2527588546318837,
+        "energy": 0.012938768514680595,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.0s < 1200s",
+        "energy_frac": 0.00714111025179775,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 222.06234337893463,
+        "amplitude": -0.08298188117166216,
+        "rel_amplitude": 0.61162248882743,
+        "energy": 1.5291196538650813,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=222.1s < 1200s",
+        "energy_frac": 0.8439452351320562,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 1014.1376578979493,
+        "amplitude": -0.01631097393110602,
+        "rel_amplitude": 0.12022092449681888,
+        "energy": 0.26980916435997543,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1014.1s < 1200s",
+        "energy_frac": 0.14891192986827836,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 5,
+    "n_states": 5,
+    "taus": [
+      2.0620195683469507,
+      3.328296284187652,
+      9.570803862015223,
+      219.414589040753,
+      983.954838076341
+    ],
+    "nrmse": 0.003736588590301237,
+    "loss": 0.00013701586334097834,
+    "z_re_corr": 0.6014456826969115,
+    "z_nrmse": 0.053111232430762496,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 2.0620195683469507,
+        "amplitude": -0.020001535351772837,
+        "rel_amplitude": 0.14742240907884793,
+        "energy": 0.0008249344692155849,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.06s < 3\u0394t=3.0s",
+        "energy_frac": 0.0004571866852259786,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 3.328296284187652,
+        "amplitude": 0.026519834889372443,
+        "rel_amplitude": 0.1954658919430422,
+        "energy": 0.0023407962435941084,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=3.3s < 1200s",
+        "energy_frac": 0.0012972919854056142,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 9.570803862015223,
+        "amplitude": -0.043042423372828216,
+        "rel_amplitude": 0.31724653305935435,
+        "energy": 0.017731351782972558,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=9.6s < 1200s",
+        "energy_frac": 0.009826887163463211,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 219.414589040753,
+        "amplitude": -0.08259980456991024,
+        "rel_amplitude": 0.6088063723597541,
+        "energy": 1.4970059977209085,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=219.4s < 1200s",
+        "energy_frac": 0.8296552458430123,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 983.954838076341,
+        "amplitude": -0.017062809229244615,
+        "rel_amplitude": 0.12576236763769663,
+        "energy": 0.2864680790348855,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=984.0s < 1200s",
+        "energy_frac": 0.15876338832289233,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 5,
+    "n_states": 6,
+    "taus": [
+      0.8428025877026855,
+      2.2128444887731606,
+      4.844493109167602,
+      8.200165130245045,
+      219.89235053452424,
+      997.7719654375665
+    ],
+    "nrmse": 0.0037816253642203547,
+    "loss": 0.00013140493074495702,
+    "z_re_corr": 0.6091331163753213,
+    "z_nrmse": 0.052831112424460654,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.8428025877026855,
+        "amplitude": 0.005149985987630392,
+        "rel_amplitude": 0.03795825308738054,
+        "energy": 2.235310999299789e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.84s < 3\u0394t=3.0s",
+        "energy_frac": 1.2073620116141143e-05,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.2128444887731606,
+        "amplitude": -0.02823413377507156,
+        "rel_amplitude": 0.20810122553949773,
+        "energy": 0.0017640050757825054,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.21s < 3\u0394t=3.0s",
+        "energy_frac": 0.0009527948090719508,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 4.844493109167602,
+        "amplitude": 0.058795172971972405,
+        "rel_amplitude": 0.4333530346192886,
+        "energy": 0.016746794350565638,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=4.8s < 1200s",
+        "energy_frac": 0.009045472116193476,
+        "survives": false
+      },
+      {
+        "mode": 4,
+        "tau": 8.200165130245045,
+        "amplitude": -0.07164987078166786,
+        "rel_amplitude": 0.528099287132245,
+        "energy": 0.04209722039064026,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=8.2s < 1200s",
+        "energy_frac": 0.022738037217249662,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 219.89235053452424,
+        "amplitude": -0.0828886886569289,
+        "rel_amplitude": 0.6109356083060866,
+        "energy": 1.510778026209595,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=219.9s < 1200s",
+        "energy_frac": 0.8160188883775917,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 997.7719654375665,
+        "amplitude": -0.016751645616905564,
+        "rel_amplitude": 0.12346891923276537,
+        "energy": 0.27999240509397505,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=997.8s < 1200s",
+        "energy_frac": 0.15123273385977634,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 9,
+    "n_states": 2,
+    "taus": [
+      13.518023833297848,
+      296.5812174340813
+    ],
+    "nrmse": 0.013756413033968354,
+    "loss": 0.0006523349476795398,
+    "z_re_corr": 0.6072857117689605,
+    "z_nrmse": 0.053639040654859894,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 13.518023833297848,
+        "amplitude": -0.039212436565948125,
+        "rel_amplitude": 0.2931749038582733,
+        "energy": 0.020785518669126313,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=13.5s < 1200s",
+        "energy_frac": 0.008209871294384097,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 296.5812174340813,
+        "amplitude": -0.09201324086986322,
+        "rel_amplitude": 0.6879443209386301,
+        "energy": 2.5109860431267923,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=296.6s < 1200s",
+        "energy_frac": 0.9917901287056156,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 9,
+    "n_states": 3,
+    "taus": [
+      1.7421544868337515,
+      14.808620877220973,
+      298.3021164331685
+    ],
+    "nrmse": 0.013632357130515638,
+    "loss": 0.0006329281539480856,
+    "z_re_corr": 0.6132400011109566,
+    "z_nrmse": 0.053270247576378715,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 1.7421544868337515,
+        "amplitude": -0.005290739180489467,
+        "rel_amplitude": 0.03955663270173261,
+        "energy": 4.876625089759105e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=1.74s < 3\u0394t=3.0s",
+        "energy_frac": 1.9331955473801165e-05,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 14.808620877220973,
+        "amplitude": -0.03686802900015056,
+        "rel_amplitude": 0.27564675404408456,
+        "energy": 0.020128641063699434,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=14.8s < 1200s",
+        "energy_frac": 0.007979411696189776,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 298.3021164331685,
+        "amplitude": -0.09159035346191607,
+        "rel_amplitude": 0.6847825695652038,
+        "energy": 2.502394660662669,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=298.3s < 1200s",
+        "energy_frac": 0.992001256348336,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 9,
+    "n_states": 4,
+    "taus": [
+      0.6039230700394156,
+      11.636084192855018,
+      236.57800914922154,
+      1111.9046861314464
+    ],
+    "nrmse": 0.0039568521863626825,
+    "loss": 0.00016128145582404346,
+    "z_re_corr": 0.6282668995836952,
+    "z_nrmse": 0.05286583316759761,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.6039230700394156,
+        "amplitude": -0.0024262368617149438,
+        "rel_amplitude": 0.018139953059901837,
+        "energy": 3.5550688288701972e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.60s < 3\u0394t=3.0s",
+        "energy_frac": 1.9424741458807166e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 11.636084192855018,
+        "amplitude": -0.03586831700287629,
+        "rel_amplitude": 0.2681723277050347,
+        "energy": 0.014970243128657426,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.6s < 1200s",
+        "energy_frac": 0.008179675734775274,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 236.57800914922154,
+        "amplitude": -0.0839493459696057,
+        "rel_amplitude": 0.6276539687150394,
+        "energy": 1.667281789792149,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=236.6s < 1200s",
+        "energy_frac": 0.9109955183619393,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 1111.9046861314464,
+        "amplitude": -0.011533993949595842,
+        "rel_amplitude": 0.08623482403567659,
+        "energy": 0.14792003437795537,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1111.9s < 1200s",
+        "energy_frac": 0.08082286342913901,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 9,
+    "n_states": 5,
+    "taus": [
+      0.8413462208710752,
+      1.2791793350960676,
+      11.522797358794836,
+      235.66828495283582,
+      1090.221544731312
+    ],
+    "nrmse": 0.0038883155835152733,
+    "loss": 0.00016107283113886612,
+    "z_re_corr": 0.6276713833368752,
+    "z_nrmse": 0.052745692111988846,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.8413462208710752,
+        "amplitude": -0.005972504099870798,
+        "rel_amplitude": 0.04465390239976348,
+        "energy": 3.001149716977696e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.84s < 3\u0394t=3.0s",
+        "energy_frac": 1.64996875146701e-05,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 1.2791793350960676,
+        "amplitude": 0.0038273934861777583,
+        "rel_amplitude": 0.02861581211488316,
+        "energy": 1.8738622477811198e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=1.28s < 3\u0394t=3.0s",
+        "energy_frac": 1.0302099011928622e-05,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 11.522797358794836,
+        "amplitude": -0.036125159272414276,
+        "rel_amplitude": 0.2700926293815678,
+        "energy": 0.015037563195034565,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.5s < 1200s",
+        "energy_frac": 0.008267334758295178,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 235.66828495283582,
+        "amplitude": -0.08371294415525864,
+        "rel_amplitude": 0.6258864917290949,
+        "energy": 1.651529644895758,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=235.7s < 1200s",
+        "energy_frac": 0.9079761302090545,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 1090.221544731312,
+        "amplitude": -0.011819209881592239,
+        "rel_amplitude": 0.08836726365853097,
+        "energy": 0.15229710563354545,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1090.2s < 1200s",
+        "energy_frac": 0.0837297332461231,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W8",
+    "diag": 9,
+    "n_states": 6,
+    "taus": [
+      0.616242378152926,
+      2.5388602000690508,
+      5.130243892146702,
+      8.672814505182098,
+      233.92476878579976,
+      1079.1028067439038
+    ],
+    "nrmse": 0.0037867050670531755,
+    "loss": 0.00014686782226786498,
+    "z_re_corr": 0.617895440053654,
+    "z_nrmse": 0.05310447956737451,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.616242378152926,
+        "amplitude": 0.002004825989048262,
+        "rel_amplitude": 0.014989241120053317,
+        "energy": 2.476879780873798e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.62s < 3\u0394t=3.0s",
+        "energy_frac": 1.3249228540337408e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.5388602000690508,
+        "amplitude": -0.026642999839416023,
+        "rel_amplitude": 0.19919850946472084,
+        "energy": 0.001802208492382329,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.54s < 3\u0394t=3.0s",
+        "energy_frac": 0.0009640303246565617,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 5.130243892146702,
+        "amplitude": 0.06142865419420249,
+        "rel_amplitude": 0.45927622368582033,
+        "energy": 0.01935887044487845,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=5.1s < 1200s",
+        "energy_frac": 0.010355371334029499,
+        "survives": false
+      },
+      {
+        "mode": 4,
+        "tau": 8.672814505182098,
+        "amplitude": -0.0746243298376124,
+        "rel_amplitude": 0.557934743199019,
+        "energy": 0.04829708792420186,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=8.7s < 1200s",
+        "energy_frac": 0.02583488955264417,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 233.92476878579976,
+        "amplitude": -0.08379374146049509,
+        "rel_amplitude": 0.6264905792143209,
+        "energy": 1.642477291481475,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=233.9s < 1200s",
+        "energy_frac": 0.8785875348167025,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 1079.1028067439038,
+        "amplitude": -0.012081708804656996,
+        "rel_amplitude": 0.09032985775550785,
+        "energy": 0.15751414142680945,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1079.1s < 1200s",
+        "energy_frac": 0.0842568490491126,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 1,
+    "n_states": 2,
+    "taus": [
+      15.257089261394102,
+      245.9643948508236
+    ],
+    "nrmse": 0.019873566142771543,
+    "loss": 0.0017839947152700113,
+    "z_re_corr": 0.6260016171437,
+    "z_nrmse": 0.049386133895991224,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 15.257089261394102,
+        "amplitude": -0.029521502370338175,
+        "rel_amplitude": 0.22879387411039184,
+        "energy": 0.013296844735304169,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=15.3s < 1200s",
+        "energy_frac": 0.00593251244929196,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 245.9643948508236,
+        "amplitude": -0.09517585400713065,
+        "rel_amplitude": 0.7376200603508458,
+        "energy": 2.2280544965317723,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=246.0s < 1200s",
+        "energy_frac": 0.9940674875507076,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 1,
+    "n_states": 3,
+    "taus": [
+      6.7981260720702705,
+      151.91213010087324,
+      774.1939099226188
+    ],
+    "nrmse": 0.0025906219106735773,
+    "loss": 0.00010113134790684746,
+    "z_re_corr": 0.6255513402951124,
+    "z_nrmse": 0.049366186196171405,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 6.7981260720702705,
+        "amplitude": -0.02373985840578243,
+        "rel_amplitude": 0.18398569650535349,
+        "energy": 0.0038312938545145623,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=6.8s < 1200s",
+        "energy_frac": 0.0026771234448838216,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 151.91213010087324,
+        "amplitude": -0.0821990046129546,
+        "rel_amplitude": 0.6370484969732392,
+        "energy": 1.0264210981526716,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=151.9s < 1200s",
+        "energy_frac": 0.7172135812422766,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 774.1939099226188,
+        "amplitude": -0.022755030288903525,
+        "rel_amplitude": 0.1763532041827419,
+        "energy": 0.4008709511604371,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=774.2s < 1200s",
+        "energy_frac": 0.2801092953128387,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 1,
+    "n_states": 4,
+    "taus": [
+      0.3508026643011646,
+      6.894893172039486,
+      152.05926979131078,
+      775.0952852913767
+    ],
+    "nrmse": 0.0025989229424885616,
+    "loss": 0.00010083231085381866,
+    "z_re_corr": 0.6441719448933784,
+    "z_nrmse": 0.048832384443764226,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.3508026643011646,
+        "amplitude": -0.0006127762812054018,
+        "rel_amplitude": 0.004749062482701037,
+        "energy": 1.317245660305741e-07,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.35s < 3\u0394t=3.0s",
+        "energy_frac": 9.202817555179073e-08,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 6.894893172039486,
+        "amplitude": -0.023485762847416887,
+        "rel_amplitude": 0.1820164367277377,
+        "energy": 0.003803092460461289,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=6.9s < 1200s",
+        "energy_frac": 0.002656996118019383,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 152.05926979131078,
+        "amplitude": -0.08220775172627527,
+        "rel_amplitude": 0.6371162877624347,
+        "energy": 1.0276339475038587,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=152.1s < 1200s",
+        "energy_frac": 0.7179471542302461,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 775.0952852913767,
+        "amplitude": -0.022714612806204598,
+        "rel_amplitude": 0.17603996563774937,
+        "energy": 0.399913229867682,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=775.1s < 1200s",
+        "energy_frac": 0.27939575762355834,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 1,
+    "n_states": 5,
+    "taus": [
+      1.734717836168727,
+      2.8949965967792046,
+      5.1646294086718605,
+      151.10614395575044,
+      768.0697466289395
+    ],
+    "nrmse": 0.002524724407566777,
+    "loss": 9.526893410018056e-05,
+    "z_re_corr": 0.6244181849447601,
+    "z_nrmse": 0.049185650451094444,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 1.734717836168727,
+        "amplitude": -0.01930479530192992,
+        "rel_amplitude": 0.1496136223227735,
+        "energy": 0.0006464861806215913,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=1.73s < 3\u0394t=3.0s",
+        "energy_frac": 0.00044794370511993614,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.8949965967792046,
+        "amplitude": 0.04267789024492647,
+        "rel_amplitude": 0.33075687427770206,
+        "energy": 0.005272953505485144,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.89s < 3\u0394t=3.0s",
+        "energy_frac": 0.003653575901500539,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 5.1646294086718605,
+        "amplitude": -0.04744144334236497,
+        "rel_amplitude": 0.3676747707323406,
+        "energy": 0.01162398258579243,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=5.2s < 1200s",
+        "energy_frac": 0.008054139413657836,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 151.10614395575044,
+        "amplitude": -0.08212434891786742,
+        "rel_amplitude": 0.6364699096950877,
+        "energy": 1.0191215896797714,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=151.1s < 1200s",
+        "energy_frac": 0.7061389934274329,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 768.0697466289395,
+        "amplitude": -0.023007271633497486,
+        "rel_amplitude": 0.1783080936635175,
+        "energy": 0.40656585217777463,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=768.1s < 1200s",
+        "energy_frac": 0.28170534755228804,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 1,
+    "n_states": 6,
+    "taus": [
+      0.3556136765516825,
+      0.9155060510913137,
+      15.626017958233282,
+      28.67542034547181,
+      112.09711405805082,
+      625.0199798362216
+    ],
+    "nrmse": 0.001742011363271152,
+    "loss": 9.509885209215989e-06,
+    "z_re_corr": 0.6475970662822265,
+    "z_nrmse": 0.048654127241783675,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.3556136765516825,
+        "amplitude": 0.0032010541633184174,
+        "rel_amplitude": 0.024808411647731128,
+        "energy": 3.6438836423860197e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.36s < 3\u0394t=3.0s",
+        "energy_frac": 2.052150797921526e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 0.9155060510913137,
+        "amplitude": -0.007145014663662287,
+        "rel_amplitude": 0.0553744035438169,
+        "energy": 4.6737714140667314e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.92s < 3\u0394t=3.0s",
+        "energy_frac": 2.6321597169330787e-05,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 15.626017958233282,
+        "amplitude": -0.06230851263351271,
+        "rel_amplitude": 0.4828956811426113,
+        "energy": 0.06066568248654157,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=15.6s < 1200s",
+        "energy_frac": 0.03416550607518594,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 28.67542034547181,
+        "amplitude": 0.061996181445099406,
+        "rel_amplitude": 0.4804750908316527,
+        "energy": 0.11021473839142636,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=28.7s < 1200s",
+        "energy_frac": 0.0620703857559449,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 112.09711405805082,
+        "amplitude": -0.09272721687584036,
+        "rel_amplitude": 0.718642937556399,
+        "energy": 0.9638487353226183,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=112.1s < 1200s",
+        "energy_frac": 0.542817264596515,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 625.0199798362216,
+        "amplitude": -0.032021024161209784,
+        "rel_amplitude": 0.24816535686160351,
+        "energy": 0.6408617289529054,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=625.0s < 1200s",
+        "energy_frac": 0.3609184698243863,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 4,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 5,
+    "n_states": 2,
+    "taus": [
+      14.820526699649577,
+      294.55753630337836
+    ],
+    "nrmse": 0.01739329280648467,
+    "loss": 0.0010309708029706472,
+    "z_re_corr": 0.6102306383154824,
+    "z_nrmse": 0.053547438014530255,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 14.820526699649577,
+        "amplitude": -0.03758317674759574,
+        "rel_amplitude": 0.2848332430017542,
+        "energy": 0.02093392244592934,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=14.8s < 1200s",
+        "energy_frac": 0.008501596320399134,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 294.55753630337836,
+        "amplitude": -0.09104078755341606,
+        "rel_amplitude": 0.6899747442433034,
+        "energy": 2.4414180473482,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=294.6s < 1200s",
+        "energy_frac": 0.9914984036796005,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 5,
+    "n_states": 3,
+    "taus": [
+      10.496702812682221,
+      204.7553027259884,
+      971.9870510876436
+    ],
+    "nrmse": 0.0029232805952181585,
+    "loss": 9.026191467305866e-05,
+    "z_re_corr": 0.6106485276846871,
+    "z_nrmse": 0.053537105848324114,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 10.496702812682221,
+        "amplitude": -0.033349552862634364,
+        "rel_amplitude": 0.25274769502102434,
+        "energy": 0.011674355991858572,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=10.5s < 1200s",
+        "energy_frac": 0.007243693825686917,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 204.7553027259884,
+        "amplitude": -0.07964568924934846,
+        "rel_amplitude": 0.6036142211276252,
+        "energy": 1.2988521208287316,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=204.8s < 1200s",
+        "energy_frac": 0.8059105868185538,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 971.9870510876436,
+        "amplitude": -0.017601422191334908,
+        "rel_amplitude": 0.13339665770860323,
+        "energy": 0.30113136968584875,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=972.0s < 1200s",
+        "energy_frac": 0.18684571935575872,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 5,
+    "n_states": 4,
+    "taus": [
+      0.8100383398082778,
+      10.961118892586486,
+      206.41484037403134,
+      988.4953446578094
+    ],
+    "nrmse": 0.003023407716984338,
+    "loss": 8.539397253014988e-05,
+    "z_re_corr": 0.6271725523512467,
+    "z_nrmse": 0.05289005072073795,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.8100383398082778,
+        "amplitude": -0.0024700856886173744,
+        "rel_amplitude": 0.01872014497087759,
+        "energy": 4.94230580394693e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.81s < 3\u0394t=3.0s",
+        "energy_frac": 3.0514751195321882e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 10.961118892586486,
+        "amplitude": -0.03248139266066867,
+        "rel_amplitude": 0.2461681318448816,
+        "energy": 0.011564428403581845,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.0s < 1200s",
+        "energy_frac": 0.007140101593260348,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 206.41484037403134,
+        "amplitude": -0.07985223462681187,
+        "rel_amplitude": 0.6051795754904303,
+        "energy": 1.3161793308333025,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=206.4s < 1200s",
+        "energy_frac": 0.8126345556507117,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 988.4953446578094,
+        "amplitude": -0.01718410151083383,
+        "rel_amplitude": 0.13023389146355918,
+        "energy": 0.2918960965786268,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=988.5s < 1200s",
+        "energy_frac": 0.1802222912809077,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 5,
+    "n_states": 5,
+    "taus": [
+      2.234041198933767,
+      3.486422515636436,
+      9.583322480333221,
+      204.43987265702745,
+      968.8550315652891
+    ],
+    "nrmse": 0.0028841348012523115,
+    "loss": 8.080860971239368e-05,
+    "z_re_corr": 0.6096598779700626,
+    "z_nrmse": 0.0533950006095412,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 2.234041198933767,
+        "amplitude": -0.019797924248207966,
+        "rel_amplitude": 0.15004338260684377,
+        "energy": 0.0008756498835810314,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.23s < 3\u0394t=3.0s",
+        "energy_frac": 0.0005411051069536569,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 3.486422515636436,
+        "amplitude": 0.025708579389337387,
+        "rel_amplitude": 0.19483871971789798,
+        "energy": 0.0023042849087084837,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=3.5s < 1200s",
+        "energy_frac": 0.0014239256526584337,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 9.583322480333221,
+        "amplitude": -0.040768679033165306,
+        "rel_amplitude": 0.30897534659991066,
+        "energy": 0.015928298366602915,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=9.6s < 1200s",
+        "energy_frac": 0.009842842159703035,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 204.43987265702745,
+        "amplitude": -0.07963368603106916,
+        "rel_amplitude": 0.6035232518194181,
+        "energy": 1.2964603489724429,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=204.4s < 1200s",
+        "energy_frac": 0.8011436179526327,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 968.8550315652891,
+        "amplitude": -0.017675518268022224,
+        "rel_amplitude": 0.13395821284158985,
+        "energy": 0.30269351210542444,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=968.9s < 1200s",
+        "energy_frac": 0.18704850912805146,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 5,
+    "n_states": 6,
+    "taus": [
+      0.5072901650290993,
+      2.0738989267584524,
+      4.940022648962865,
+      8.593698769560248,
+      204.26858951060677,
+      971.4827044791575
+    ],
+    "nrmse": 0.0028821026731745743,
+    "loss": 7.85532722670173e-05,
+    "z_re_corr": 0.6220455211899003,
+    "z_nrmse": 0.05297516548247799,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.5072901650290993,
+        "amplitude": 0.002062259730593378,
+        "rel_amplitude": 0.01562933678868466,
+        "energy": 2.1574620518502544e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.51s < 3\u0394t=3.0s",
+        "energy_frac": 1.3174005831515026e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.0738989267584524,
+        "amplitude": -0.01692389252948416,
+        "rel_amplitude": 0.128261834430867,
+        "energy": 0.0005940022697272437,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.07s < 3\u0394t=3.0s",
+        "energy_frac": 0.0003627127234339423,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 4.940022648962865,
+        "amplitude": 0.03790236940280248,
+        "rel_amplitude": 0.2872523221481357,
+        "energy": 0.0070967851926163426,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=4.9s < 1200s",
+        "energy_frac": 0.0043334755034211084,
+        "survives": false
+      },
+      {
+        "mode": 4,
+        "tau": 8.593698769560248,
+        "amplitude": -0.05758721588047958,
+        "rel_amplitude": 0.43643871737714224,
+        "energy": 0.02849917523131972,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=8.6s < 1200s",
+        "energy_frac": 0.017402313072843505,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 204.26858951060677,
+        "amplitude": -0.07973899287335234,
+        "rel_amplitude": 0.6043213453280972,
+        "energy": 1.2988023993903761,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=204.3s < 1200s",
+        "energy_frac": 0.7930814064090026,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 971.4827044791575,
+        "amplitude": -0.017650953224948494,
+        "rel_amplitude": 0.1337720406898806,
+        "energy": 0.3026714109555825,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=971.5s < 1200s",
+        "energy_frac": 0.18481877489071508,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 9,
+    "n_states": 2,
+    "taus": [
+      13.968508608023193,
+      297.68351226247086
+    ],
+    "nrmse": 0.015610491519432714,
+    "loss": 0.00082598119504342,
+    "z_re_corr": 0.6101720342750896,
+    "z_nrmse": 0.05371359302121064,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 13.968508608023193,
+        "amplitude": -0.03919097901346624,
+        "rel_amplitude": 0.29401025531865427,
+        "energy": 0.021454691041485726,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=14.0s < 1200s",
+        "energy_frac": 0.008575799739602383,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 297.68351226247086,
+        "amplitude": -0.09128011619203878,
+        "rel_amplitude": 0.6847823387600576,
+        "energy": 2.4803167696899964,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=297.7s < 1200s",
+        "energy_frac": 0.9914242002603972,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 9,
+    "n_states": 3,
+    "taus": [
+      3.0271131262736666,
+      16.686947955037226,
+      301.1552174925184
+    ],
+    "nrmse": 0.015350395380394887,
+    "loss": 0.0007948773643689731,
+    "z_re_corr": 0.6095830170301705,
+    "z_nrmse": 0.053605988697602636,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 3.0271131262736666,
+        "amplitude": -0.008160064511608703,
+        "rel_amplitude": 0.061216706264224874,
+        "energy": 0.00020156533082726596,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=3.0s < 1200s",
+        "energy_frac": 8.117245965401822e-05,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 16.686947955037226,
+        "amplitude": -0.03452760424801947,
+        "rel_amplitude": 0.25902567366366513,
+        "energy": 0.019893436033698447,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=16.7s < 1200s",
+        "energy_frac": 0.008011294041478803,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 301.1552174925184,
+        "amplitude": -0.0904365452049409,
+        "rel_amplitude": 0.6784538793150706,
+        "energy": 2.4630788692610386,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=301.2s < 1200s",
+        "energy_frac": 0.9919075334988667,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 9,
+    "n_states": 4,
+    "taus": [
+      0.7038711871477805,
+      11.42082681140213,
+      224.68510866785775,
+      1071.594282084061
+    ],
+    "nrmse": 0.003635900586153024,
+    "loss": 0.00013683745665673836,
+    "z_re_corr": 0.6296250887792596,
+    "z_nrmse": 0.05298259617131737,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.7038711871477805,
+        "amplitude": -0.0024959834014171484,
+        "rel_amplitude": 0.018724837592590523,
+        "energy": 4.385070435208623e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.70s < 3\u0394t=3.0s",
+        "energy_frac": 2.541283472506515e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 11.42082681140213,
+        "amplitude": -0.03511010065166998,
+        "rel_amplitude": 0.2633955547095211,
+        "energy": 0.014078672122201466,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.4s < 1200s",
+        "energy_frac": 0.008159024423352656,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 224.68510866785775,
+        "amplitude": -0.08179637602416451,
+        "rel_amplitude": 0.6136354335711259,
+        "energy": 1.5032887776165902,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=224.7s < 1200s",
+        "energy_frac": 0.8712021805368811,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 1071.594282084061,
+        "amplitude": -0.013937518539411433,
+        "rel_amplitude": 0.10455909720634471,
+        "energy": 0.20816192899538463,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1071.6s < 1200s",
+        "energy_frac": 0.12063625375629301,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 9,
+    "n_states": 5,
+    "taus": [
+      0.29047251341623964,
+      0.4869212946570472,
+      11.447679924888575,
+      224.7164259069509,
+      1071.196927898545
+    ],
+    "nrmse": 0.003635747215992848,
+    "loss": 0.00013672819531114627,
+    "z_re_corr": 0.6491357758373725,
+    "z_nrmse": 0.05235793159522941,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.29047251341623964,
+        "amplitude": 0.005622900210869888,
+        "rel_amplitude": 0.04218293005798923,
+        "energy": 9.183871426491734e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.29s < 3\u0394t=3.0s",
+        "energy_frac": 5.322961582226053e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 0.4869212946570472,
+        "amplitude": -0.008145395123860569,
+        "rel_amplitude": 0.06110665669297749,
+        "energy": 3.23059919597672e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.49s < 3\u0394t=3.0s",
+        "energy_frac": 1.8724516719768057e-05,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 11.447679924888575,
+        "amplitude": -0.035051257009076166,
+        "rel_amplitude": 0.26295411040732736,
+        "energy": 0.014064512152627004,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.4s < 1200s",
+        "energy_frac": 0.008151775475125918,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 224.7164259069509,
+        "amplitude": -0.0817850561142528,
+        "rel_amplitude": 0.6135505117425035,
+        "energy": 1.5030821967224124,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=224.7s < 1200s",
+        "energy_frac": 0.8711847560280679,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 1071.196927898545,
+        "amplitude": -0.013939467848925365,
+        "rel_amplitude": 0.10457372090297881,
+        "energy": 0.20814295096546676,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1071.2s < 1200s",
+        "energy_frac": 0.12063942101850351,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W9",
+    "diag": 9,
+    "n_states": 6,
+    "taus": [
+      0.8369840307079436,
+      2.2931571728717137,
+      5.124677315882103,
+      8.560653595471592,
+      222.24223978003906,
+      1047.2978159711818
+    ],
+    "nrmse": 0.0034747612981988426,
+    "loss": 0.0001241503985919302,
+    "z_re_corr": 0.6188544551350805,
+    "z_nrmse": 0.05323093462607982,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.8369840307079436,
+        "amplitude": 0.004073369315179612,
+        "rel_amplitude": 0.03055836783132218,
+        "energy": 1.388752158477311e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.84s < 3\u0394t=3.0s",
+        "energy_frac": 7.871275976515896e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.2931571728717137,
+        "amplitude": -0.025856962077084548,
+        "rel_amplitude": 0.19397861991240956,
+        "energy": 0.0015331647276829168,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.29s < 3\u0394t=3.0s",
+        "energy_frac": 0.0008689788610146194,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 5.124677315882103,
+        "amplitude": 0.057159502361811235,
+        "rel_amplitude": 0.42880990233770083,
+        "energy": 0.016743390363670105,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=5.1s < 1200s",
+        "energy_frac": 0.009489947182475427,
+        "survives": false
+      },
+      {
+        "mode": 4,
+        "tau": 8.560653595471592,
+        "amplitude": -0.07249658882116665,
+        "rel_amplitude": 0.5438685413221965,
+        "energy": 0.04499270128236057,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=8.6s < 1200s",
+        "energy_frac": 0.025501308247160986,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 222.24223978003906,
+        "amplitude": -0.08167829500845122,
+        "rel_amplitude": 0.6127495912050493,
+        "energy": 1.4826544052312076,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=222.2s < 1200s",
+        "energy_frac": 0.8403502331307113,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 1047.2978159711818,
+        "amplitude": -0.014440520864040027,
+        "rel_amplitude": 0.1083326146231746,
+        "energy": 0.21839159219782184,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1047.3s < 1200s",
+        "energy_frac": 0.12378166130266045,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 1,
+    "n_states": 2,
+    "taus": [
+      95.03998782062686,
+      480.05534214011533
+    ],
+    "nrmse": 0.006511393213682154,
+    "loss": 0.0013927496536102852,
+    "z_re_corr": 0.6318292582324048,
+    "z_nrmse": 0.04894631267593638,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 95.03998782062686,
+        "amplitude": -0.06993662107765344,
+        "rel_amplitude": 0.5551054154177611,
+        "energy": 0.46485302760493286,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=95.0s < 1200s",
+        "energy_frac": 0.3563397990899937,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 480.05534214011533,
+        "amplitude": -0.041822341246064876,
+        "rel_amplitude": 0.3319549579806374,
+        "energy": 0.8396687484976959,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=480.1s < 1200s",
+        "energy_frac": 0.6436602009100055,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 1,
+    "n_states": 3,
+    "taus": [
+      6.234768896681786,
+      139.1430889741788,
+      725.9096179024365
+    ],
+    "nrmse": 0.0022502192941850035,
+    "loss": 7.718727514452613e-05,
+    "z_re_corr": 0.6288714738529844,
+    "z_nrmse": 0.04893638567256062,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 6.234768896681786,
+        "amplitude": -0.021360185507106107,
+        "rel_amplitude": 0.1695414286051524,
+        "energy": 0.0028446602251109773,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=6.2s < 1200s",
+        "energy_frac": 0.0021690758530701544,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 139.1430889741788,
+        "amplitude": -0.0811249338343865,
+        "rel_amplitude": 0.6439100059877597,
+        "energy": 0.9157361346700355,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=139.1s < 1200s",
+        "energy_frac": 0.6982560236764593,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 725.9096179024365,
+        "amplitude": -0.023264261288370364,
+        "rel_amplitude": 0.18465458050266836,
+        "energy": 0.392881052363254,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=725.9s < 1200s",
+        "energy_frac": 0.29957490047046975,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 1,
+    "n_states": 4,
+    "taus": [
+      0.3623586264476016,
+      6.31004104275875,
+      139.23626418121614,
+      726.406541125071
+    ],
+    "nrmse": 0.002254103549295332,
+    "loss": 7.70296339732903e-05,
+    "z_re_corr": 0.647762595260769,
+    "z_nrmse": 0.04838583895202741,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.3623586264476016,
+        "amplitude": -0.00044643997529879244,
+        "rel_amplitude": 0.003543511884455575,
+        "energy": 7.222120921289244e-08,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.36s < 3\u0394t=3.0s",
+        "energy_frac": 5.506663536966702e-08,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 6.31004104275875,
+        "amplitude": -0.021161293417433755,
+        "rel_amplitude": 0.16796276960848328,
+        "energy": 0.0028256385186742417,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=6.3s < 1200s",
+        "energy_frac": 0.002154469686815271,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 139.23626418121614,
+        "amplitude": -0.0811272038947155,
+        "rel_amplitude": 0.6439280240555836,
+        "energy": 0.9164006282558923,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=139.2s < 1200s",
+        "energy_frac": 0.6987296363308836,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 726.406541125071,
+        "amplitude": -0.023239026932538386,
+        "rel_amplitude": 0.18445428876193132,
+        "energy": 0.3922975761311472,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=726.4s < 1200s",
+        "energy_frac": 0.2991158389156649,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 1,
+    "n_states": 5,
+    "taus": [
+      1.5330834546997354,
+      2.693440288255567,
+      4.718940132434926,
+      138.39423239336458,
+      720.1285503802501
+    ],
+    "nrmse": 0.0022017743787117044,
+    "loss": 7.2868191163298e-05,
+    "z_re_corr": 0.6292468956308613,
+    "z_nrmse": 0.048722225153562365,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 1.5330834546997354,
+        "amplitude": -0.014937173232035897,
+        "rel_amplitude": 0.11856028536079452,
+        "energy": 0.00034206026834436305,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=1.53s < 3\u0394t=3.0s",
+        "energy_frac": 0.0002592345165085919,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.693440288255567,
+        "amplitude": 0.03624303687524073,
+        "rel_amplitude": 0.28767054699844785,
+        "energy": 0.0035379892892225596,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.69s < 3\u0394t=3.0s",
+        "energy_frac": 0.0026813080257565712,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 4.718940132434926,
+        "amplitude": -0.04285713098028332,
+        "rel_amplitude": 0.34016835714737104,
+        "energy": 0.008667436255615953,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=4.7s < 1200s",
+        "energy_frac": 0.006568721523750947,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 138.39423239336458,
+        "amplitude": -0.08103708490231126,
+        "rel_amplitude": 0.6432127258334971,
+        "energy": 0.9088361875924436,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=138.4s < 1200s",
+        "energy_frac": 0.6887725102257456,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 720.1285503802501,
+        "amplitude": -0.02351260027454653,
+        "rel_amplitude": 0.18662571256426283,
+        "energy": 0.3981175756999326,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=720.1s < 1200s",
+        "energy_frac": 0.3017182257082374,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 1,
+    "n_states": 6,
+    "taus": [
+      0.36719136908943756,
+      0.9027403307354347,
+      13.81688315404984,
+      25.716161919528815,
+      109.07140988784174,
+      608.5969538463195
+    ],
+    "nrmse": 0.0020116709461746305,
+    "loss": 1.111638407992171e-05,
+    "z_re_corr": 0.6513578079173897,
+    "z_nrmse": 0.048213247220315475,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.36719136908943756,
+        "amplitude": 0.002733170716398911,
+        "rel_amplitude": 0.02169389716797544,
+        "energy": 2.743001104161466e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.37s < 3\u0394t=3.0s",
+        "energy_frac": 1.7998635138630542e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 0.9027403307354347,
+        "amplitude": -0.00621445025907335,
+        "rel_amplitude": 0.04932573149088248,
+        "energy": 3.48632827271902e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.90s < 3\u0394t=3.0s",
+        "energy_frac": 2.287609380067824e-05,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 13.81688315404984,
+        "amplitude": -0.05178093152293648,
+        "rel_amplitude": 0.4109989167455319,
+        "energy": 0.03704672340532413,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=13.8s < 1200s",
+        "energy_frac": 0.024308792899958784,
+        "survives": false
+      },
+      {
+        "mode": 4,
+        "tau": 25.716161919528815,
+        "amplitude": 0.04846533849783195,
+        "rel_amplitude": 0.38468218003168214,
+        "energy": 0.06040441077330965,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=25.7s < 1200s",
+        "energy_frac": 0.03963530851749766,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 109.07140988784174,
+        "amplitude": -0.08854341453855957,
+        "rel_amplitude": 0.7027924448245776,
+        "energy": 0.8551129011069257,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=109.1s < 1200s",
+        "energy_frac": 0.5610958408295791,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 608.5969538463195,
+        "amplitude": -0.030641253676221322,
+        "rel_amplitude": 0.24320771562546498,
+        "energy": 0.5714034193888979,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=608.6s < 1200s",
+        "energy_frac": 0.3749353817956491,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 5,
+    "n_states": 2,
+    "taus": [
+      22.146692724369828,
+      305.4202875424125
+    ],
+    "nrmse": 0.01781486009137946,
+    "loss": 0.0013022771583443857,
+    "z_re_corr": 0.6049234364275408,
+    "z_nrmse": 0.05282641683128862,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 22.146692724369828,
+        "amplitude": -0.039965336235717935,
+        "rel_amplitude": 0.3182612342978456,
+        "energy": 0.03537331995104047,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=22.1s < 1200s",
+        "energy_frac": 0.017964546061523128,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 305.4202875424125,
+        "amplitude": -0.07956909711233602,
+        "rel_amplitude": 0.6336430878393257,
+        "energy": 1.9336895124688573,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=305.4s < 1200s",
+        "energy_frac": 0.9820354539384764,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 5,
+    "n_states": 3,
+    "taus": [
+      11.520986327116571,
+      170.8551069238893,
+      846.0443277417487
+    ],
+    "nrmse": 0.0012124945947228226,
+    "loss": 2.8841651353752714e-05,
+    "z_re_corr": 0.6046568761805585,
+    "z_nrmse": 0.05282222873102508,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 11.520986327116571,
+        "amplitude": -0.03158268432597024,
+        "rel_amplitude": 0.25150655650031073,
+        "energy": 0.011491791562887953,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.5s < 1200s",
+        "energy_frac": 0.009127302420457489,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 170.8551069238893,
+        "amplitude": -0.06974296116695732,
+        "rel_amplitude": 0.5553933231955408,
+        "energy": 0.8310530165241379,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=170.9s < 1200s",
+        "energy_frac": 0.6600600235167369,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 846.0443277417487,
+        "amplitude": -0.02218794908933596,
+        "rel_amplitude": 0.1766922220311196,
+        "energy": 0.41651192450581614,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=846.0s < 1200s",
+        "energy_frac": 0.3308126740628048,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 5,
+    "n_states": 4,
+    "taus": [
+      2.1612194598193164,
+      13.632628667601796,
+      176.11074223021782,
+      871.4079728857164
+    ],
+    "nrmse": 0.0012796437255063328,
+    "loss": 9.215549870817454e-06,
+    "z_re_corr": 0.6067438394275848,
+    "z_nrmse": 0.05263743752250558,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 2.1612194598193164,
+        "amplitude": -0.005880187479331265,
+        "rel_amplitude": 0.04682647267213934,
+        "energy": 7.472763113113416e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.16s < 3\u0394t=3.0s",
+        "energy_frac": 5.9336305579812074e-05,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 13.632628667601796,
+        "amplitude": -0.02876995455599754,
+        "rel_amplitude": 0.22910757446603075,
+        "energy": 0.011283866961861507,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=13.6s < 1200s",
+        "energy_frac": 0.0089597779032501,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 176.11074223021782,
+        "amplitude": -0.06978435870334669,
+        "rel_amplitude": 0.5557229896582591,
+        "energy": 0.8576340814501491,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=176.1s < 1200s",
+        "energy_frac": 0.6809909154391139,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 871.4079728857164,
+        "amplitude": -0.02116622522575945,
+        "rel_amplitude": 0.16855579360185474,
+        "energy": 0.3903986932192984,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=871.4s < 1200s",
+        "energy_frac": 0.3099899703520552,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 5,
+    "n_states": 5,
+    "taus": [
+      0.4170517868389428,
+      1.899851474452383,
+      13.548970535386205,
+      176.05974615557602,
+      871.4827658659008
+    ],
+    "nrmse": 0.001279160205672068,
+    "loss": 9.281288421498635e-06,
+    "z_re_corr": 0.6235628717966702,
+    "z_nrmse": 0.052064240946656175,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.4170517868389428,
+        "amplitude": 0.0005467658025860893,
+        "rel_amplitude": 0.004354132245417727,
+        "energy": 1.2467881730268913e-07,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.42s < 3\u0394t=3.0s",
+        "energy_frac": 9.896721049710741e-08,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 1.899851474452383,
+        "amplitude": -0.006179324411745909,
+        "rel_amplitude": 0.0492086292683666,
+        "energy": 7.25440240456739e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=1.90s < 3\u0394t=3.0s",
+        "energy_frac": 5.758379693805918e-05,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 13.548970535386205,
+        "amplitude": -0.02896910091543913,
+        "rel_amplitude": 0.23069346294168325,
+        "energy": 0.011370415410581277,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=13.5s < 1200s",
+        "energy_frac": 0.009025577236962451,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 176.05974615557602,
+        "amplitude": -0.06980255298415762,
+        "rel_amplitude": 0.5558678785748415,
+        "energy": 0.8578328739002072,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=176.1s < 1200s",
+        "energy_frac": 0.6809282317501523,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 871.4827658659008,
+        "amplitude": -0.021168694133086398,
+        "rel_amplitude": 0.16857545457727122,
+        "energy": 0.3905232893980263,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=871.5s < 1200s",
+        "energy_frac": 0.3099885082487357,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 5,
+    "n_states": 6,
+    "taus": [
+      0.33091761521788804,
+      0.49397765460768606,
+      2.3856091194873756,
+      13.75918093864995,
+      176.32522846915037,
+      872.3570975777942
+    ],
+    "nrmse": 0.001287339474663322,
+    "loss": 9.191945569055452e-06,
+    "z_re_corr": 0.6336041864649037,
+    "z_nrmse": 0.0517169707606944,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.33091761521788804,
+        "amplitude": 0.0007397036110324817,
+        "rel_amplitude": 0.005890579347894284,
+        "energy": 1.810653562743874e-07,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.33s < 3\u0394t=3.0s",
+        "energy_frac": 1.4378431220853862e-07,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 0.49397765460768606,
+        "amplitude": -0.0009952046788339781,
+        "rel_amplitude": 0.00792524470697733,
+        "energy": 4.892514506703993e-07,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.49s < 3\u0394t=3.0s",
+        "energy_frac": 3.8851542216098693e-07,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 2.3856091194873756,
+        "amplitude": -0.005867740859799501,
+        "rel_amplitude": 0.046727354864856276,
+        "energy": 8.213743518977894e-05,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.39s < 3\u0394t=3.0s",
+        "energy_frac": 6.522547917691516e-05,
+        "survives": false
+      },
+      {
+        "mode": 4,
+        "tau": 13.75918093864995,
+        "amplitude": -0.02854443152833385,
+        "rel_amplitude": 0.22731163718869876,
+        "energy": 0.011210768342203227,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=13.8s < 1200s",
+        "energy_frac": 0.008902490507185805,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 176.32522846915037,
+        "amplitude": -0.06977960957842803,
+        "rel_amplitude": 0.5556851703252867,
+        "energy": 0.8585617291558354,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=176.3s < 1200s",
+        "energy_frac": 0.6817853522910926,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 872.3570975777942,
+        "amplitude": -0.021128424120045477,
+        "rel_amplitude": 0.16825476706997733,
+        "energy": 0.38942919869346726,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=872.4s < 1200s",
+        "energy_frac": 0.3092463994228095,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 9,
+    "n_states": 2,
+    "taus": [
+      15.594677456479227,
+      294.5726678926104
+    ],
+    "nrmse": 0.018249508154457486,
+    "loss": 0.0011635020404877317,
+    "z_re_corr": 0.6077748455538617,
+    "z_nrmse": 0.05372169363926476,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 15.594677456479227,
+        "amplitude": -0.03933146485364503,
+        "rel_amplitude": 0.30010960767944334,
+        "energy": 0.024124406605628954,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=15.6s < 1200s",
+        "energy_frac": 0.01046072985246253,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 294.5726678926104,
+        "amplitude": -0.0880172143479235,
+        "rel_amplitude": 0.6715949117401054,
+        "energy": 2.2820633016975247,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=294.6s < 1200s",
+        "energy_frac": 0.9895392701475372,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 2,
+    "n_surviving": 2,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 9,
+    "n_states": 3,
+    "taus": [
+      10.831993676629898,
+      199.11139066758966,
+      1001.407295966373
+    ],
+    "nrmse": 0.002735375948268153,
+    "loss": 8.430178573872409e-05,
+    "z_re_corr": 0.608132160690218,
+    "z_nrmse": 0.05371147259521223,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 10.831993676629898,
+        "amplitude": -0.034578249709426405,
+        "rel_amplitude": 0.2638413034742609,
+        "energy": 0.012951331222772077,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=10.8s < 1200s",
+        "energy_frac": 0.008555692562616067,
+        "survives": true
+      },
+      {
+        "mode": 2,
+        "tau": 199.11139066758966,
+        "amplitude": -0.07745255679775122,
+        "rel_amplitude": 0.5909837459864851,
+        "energy": 1.1944490336620563,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=199.1s < 1200s",
+        "energy_frac": 0.7890570118195986,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 1001.407295966373,
+        "amplitude": -0.017491049464960322,
+        "rel_amplitude": 0.13346139057784187,
+        "energy": 0.30636735502631685,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1001.4s < 1200s",
+        "energy_frac": 0.20238729561778454,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 9,
+    "n_states": 4,
+    "taus": [
+      0.9660004686858544,
+      11.407223966556602,
+      200.91831342971622,
+      1017.4722990761186
+    ],
+    "nrmse": 0.0028372264269846746,
+    "loss": 7.753366793091898e-05,
+    "z_re_corr": 0.6226300955045975,
+    "z_nrmse": 0.053103028103143976,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.9660004686858544,
+        "amplitude": -0.0029156218487270762,
+        "rel_amplitude": 0.02224697535215257,
+        "energy": 8.211825823000859e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.97s < 3\u0394t=3.0s",
+        "energy_frac": 5.404238926870438e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 11.407223966556602,
+        "amplitude": -0.0335068248067801,
+        "rel_amplitude": 0.2556660445972356,
+        "energy": 0.01280697371845811,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=11.4s < 1200s",
+        "energy_frac": 0.008428326099031378,
+        "survives": true
+      },
+      {
+        "mode": 3,
+        "tau": 200.91831342971622,
+        "amplitude": -0.07757974006764073,
+        "rel_amplitude": 0.591954188388566,
+        "energy": 1.2092501897569745,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=200.9s < 1200s",
+        "energy_frac": 0.7958129030824942,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 1017.4722990761186,
+        "amplitude": -0.017098023776456812,
+        "rel_amplitude": 0.13046249934346668,
+        "energy": 0.2974503112037951,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1017.5s < 1200s",
+        "energy_frac": 0.19575336657954678,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 9,
+    "n_states": 5,
+    "taus": [
+      1.926589358340433,
+      2.8421279008850937,
+      10.6075789281011,
+      199.42550604317282,
+      1001.4680061179785
+    ],
+    "nrmse": 0.002727293664929007,
+    "loss": 7.491047197297151e-05,
+    "z_re_corr": 0.6093561642347214,
+    "z_nrmse": 0.0534885480160212,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 1.926589358340433,
+        "amplitude": -0.01660483462627803,
+        "rel_amplitude": 0.1266993340781334,
+        "energy": 0.0005312002446883286,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=1.93s < 3\u0394t=3.0s",
+        "energy_frac": 0.0003503276610892308,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.8421279008850937,
+        "amplitude": 0.01722996887171469,
+        "rel_amplitude": 0.13146927574806833,
+        "energy": 0.0008437477034136444,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.84s < 3\u0394t=3.0s",
+        "energy_frac": 0.0005564533571699363,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 10.6075789281011,
+        "amplitude": -0.037000498545355795,
+        "rel_amplitude": 0.28232371064006945,
+        "energy": 0.014522166893788494,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=10.6s < 1200s",
+        "energy_frac": 0.009577399130968745,
+        "survives": true
+      },
+      {
+        "mode": 4,
+        "tau": 199.42550604317282,
+        "amplitude": -0.07741734622942936,
+        "rel_amplitude": 0.5907150799226971,
+        "energy": 1.1952459012227494,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=199.4s < 1200s",
+        "energy_frac": 0.7882671463141662,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 1001.4680061179785,
+        "amplitude": -0.017455805410603164,
+        "rel_amplitude": 0.1331924690066388,
+        "energy": 0.3051524515462604,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=1001.5s < 1200s",
+        "energy_frac": 0.2012486735366052,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 3,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  },
+  {
+    "cell": "W10",
+    "diag": 9,
+    "n_states": 6,
+    "taus": [
+      0.5339355819167318,
+      2.214821156847306,
+      4.993646702928205,
+      9.044949686194506,
+      198.7146003552924,
+      999.8555019708595
+    ],
+    "nrmse": 0.002688084360825881,
+    "loss": 7.046154767917602e-05,
+    "z_re_corr": 0.6195269682892847,
+    "z_nrmse": 0.053145652214096256,
+    "modes": [
+      {
+        "mode": 1,
+        "tau": 0.5339355819167318,
+        "amplitude": 0.002035237896902805,
+        "rel_amplitude": 0.015529410080368034,
+        "energy": 2.2116643884395965e-06,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=0.53s < 3\u0394t=3.0s",
+        "energy_frac": 1.4375524857027925e-06,
+        "survives": false
+      },
+      {
+        "mode": 2,
+        "tau": 2.214821156847306,
+        "amplitude": -0.01840944811448905,
+        "rel_amplitude": 0.14046901817139826,
+        "energy": 0.0007506201210985163,
+        "status": "SUB-BANDWIDTH",
+        "reason": "\u03c4=2.21s < 3\u0394t=3.0s",
+        "energy_frac": 0.00048789311187716567,
+        "survives": false
+      },
+      {
+        "mode": 3,
+        "tau": 4.993646702928205,
+        "amplitude": 0.03706364517991349,
+        "rel_amplitude": 0.2828055363690095,
+        "energy": 0.006859841358287575,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=5.0s < 1200s",
+        "energy_frac": 0.004458805796972957,
+        "survives": false
+      },
+      {
+        "mode": 4,
+        "tau": 9.044949686194506,
+        "amplitude": -0.0566703878901902,
+        "rel_amplitude": 0.4324102328772204,
+        "energy": 0.02904815316704482,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=9.0s < 1200s",
+        "energy_frac": 0.01888091385321919,
+        "survives": true
+      },
+      {
+        "mode": 5,
+        "tau": 198.7146003552924,
+        "amplitude": -0.07751460693108343,
+        "rel_amplitude": 0.5914572051174908,
+        "energy": 1.1939795154054686,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=198.7s < 1200s",
+        "energy_frac": 0.7760708311898672,
+        "survives": true
+      },
+      {
+        "mode": 6,
+        "tau": 999.8555019708595,
+        "amplitude": -0.017546997334502264,
+        "rel_amplitude": 0.1338882878022705,
+        "energy": 0.307852624930668,
+        "status": "IDENTIFIABLE",
+        "reason": "3.0s < \u03c4=999.9s < 1200s",
+        "energy_frac": 0.20010011849557707,
+        "survives": true
+      }
+    ],
+    "n_identifiable": 4,
+    "n_surviving": 3,
+    "delta_t": 1.0,
+    "T_obs": 3600.0
+  }
+]
