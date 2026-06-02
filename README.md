@@ -41,8 +41,8 @@ Raw cell data is from the following public sources — download directly from ea
 - **Panasonic NCR18650PF** (Kollmeyer): https://doi.org/10.17632/wykht8y7tg.1
 - **Stanford SECL** (Pozzato et al.): https://doi.org/10.1016/j.dib.2022.107995
 
-This repository provides the run scripts and the extracted time constants /
-result files; it does not redistribute the raw datasets. Please cite the original
+This repository provides the run scripts and the extracted LGN time constants /
+result files. Please cite the original
 sources above when using the data.
 
 ## Citing
