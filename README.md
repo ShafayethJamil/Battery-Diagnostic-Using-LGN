@@ -42,7 +42,7 @@ Raw cell data is from the following public sources — download directly from ea
 - **Stanford SECL** (Pozzato et al.): https://osf.io/qsabn/?view_only=2a03b6c78ef14922a3e244f3d549de78
 
 This repository provides the run scripts and the extracted time constants /
-result files; it does not redistribute the raw datasets. Cite the original
+result files; it does not redistribute the raw datasets. Please site the original
 sources above when using the data.
 
 ## Citing
