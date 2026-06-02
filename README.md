@@ -35,14 +35,14 @@ for the figures.
 
 Raw cell data is from the following public sources — download directly from each:
 
-- **KIT** (cell aging): https://radar.kit.edu/radar/en/dataset/zYYmSEIWMwoELRCK
+- **KIT** (cell aging):  https://doi.org/10.1038/s41597-024-03831-x
 - **TRI** (aging matrix): https://data.matr.io/11/
 - **Samsung INR21700-50E** (Popp et al.): https://doi.org/10.5281/zenodo.10891871
 - **Panasonic NCR18650PF** (Kollmeyer): https://doi.org/10.17632/wykht8y7tg.1
-- **Stanford SECL** (Pozzato et al.): https://osf.io/qsabn/?view_only=2a03b6c78ef14922a3e244f3d549de78
+- **Stanford SECL** (Pozzato et al.): https://doi.org/10.1016/j.dib.2022.107995
 
 This repository provides the run scripts and the extracted time constants /
-result files; it does not redistribute the raw datasets. Please site the original
+result files; it does not redistribute the raw datasets. Please cite the original
 sources above when using the data.
 
 ## Citing
