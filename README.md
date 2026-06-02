@@ -33,10 +33,17 @@ for the figures.
 
 ## Data
 
-Raw cell data comes from the original public sources cited in the paper:
-KIT, Toyota Research Institute, Samsung INR21700-50E, Panasonic NCR18650PF,
-and Stanford SECL. Please cite those sources when using the data; this
-repository's added value is the extracted time constants and derived results.
+Raw cell data is from the following public sources — download directly from each:
+
+- **KIT** (cell aging): [link / DOI from paper ref.]
+- **TRI** (aging matrix): [link / DOI from paper ref.]
+- **Samsung INR21700-50E** (Popp et al.): https://doi.org/10.5281/zenodo.10891871
+- **Panasonic NCR18650PF** (Kollmeyer): https://doi.org/10.17632/wykht8y7tg.1
+- **Stanford SECL** (Pozzato et al.): [link / DOI from paper ref.]
+
+This repository provides the run scripts and the extracted time constants /
+result files; it does not redistribute the raw datasets. Cite the original
+sources above when using the data.
 
 ## Citing
 
