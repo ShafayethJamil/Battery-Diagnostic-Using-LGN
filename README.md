@@ -35,7 +35,7 @@ for the figures.
 
 Raw cell data is from the following public sources — download directly from each:
 
-- **KIT** (cell aging): [link / DOI from paper ref.]
+- **KIT** (cell aging): https://radar.kit.edu/radar/en/dataset/zYYmSEIWMwoELRCK
 - **TRI** (aging matrix): https://data.matr.io/11/
 - **Samsung INR21700-50E** (Popp et al.): https://doi.org/10.5281/zenodo.10891871
 - **Panasonic NCR18650PF** (Kollmeyer): https://doi.org/10.17632/wykht8y7tg.1
